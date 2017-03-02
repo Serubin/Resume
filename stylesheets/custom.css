@@ -282,3 +282,12 @@ a {
     color: #26447f !important;
 }
 
+/* links color fix/hover */
+a span span {
+	color: #000;
+}
+a:hover span span {
+    text-decoration: underline;
+    color: #26447f;
+}
+
