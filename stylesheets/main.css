@@ -4163,3 +4163,7 @@ body.modal-open .secondary-navbar {
 .font-sizing-fixed [flex-height="10"] {
   font-size: 26px;
 }
+
+#page-wrapper {
+    margin: 50px 0 50px 0;
+}

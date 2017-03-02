@@ -283,10 +283,10 @@ a {
 }
 
 /* links color fix/hover */
-a span span {
+a.link span {
 	color: #000;
 }
-a:hover span span {
+a.link:hover span {
     text-decoration: underline;
     color: #26447f;
 }
