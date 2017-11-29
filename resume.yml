@@ -1,0 +1,10 @@
+name: "Solomon Rubin"
+
+contact_list:
+  - title: "serubin@serubin.net"
+    icon: "fa-envelope"
+    link: "mailto:serubin@serubin.net"
+  - title: "serub.in"
+    icon: "fa-globe"
+    link: "http://serub.in"
+
