@@ -8,3 +8,58 @@ contact_list:
     icon: "fa-globe"
     link: "http://serub.in"
 
+links:
+  - title: "Http:// Serub.in"
+    link: "http://serub.in"
+  - title: "Github:// Serubin"
+    link: "https://github.com/Serubin"
+  - title: "Linkedin:// Serubin"
+    link: "https://linkedin.com/in/serubin"
+
+skills:
+  - title: "Programming"
+    items:
+      - "Python"
+      - "JS/Node"
+      - "Bash"
+      - "PHP"
+      - "HTML5"
+      - "CSS/SASS"
+      - "C"
+      - "Java"
+      - "Ruby"
+  - title: "Software"
+    items:
+      - "Nginx"
+      - "Apache"
+      - "SQL"
+      - "MongoDB"
+      - "Arch"
+      - "Debian"
+      - "REHL"
+      - "MacOS"
+  - title: "Tools"
+    items:
+      - "Git"
+      - "Bash/Zsh"
+      - "CI/CD"
+      - "Vim"
+      - "Webpack"
+      - "Grunt"
+      - "Maven"
+
+education:
+    - title: "Rochester Institute of Technology"
+      degree: "Bachelor's Degree, Computer Science 2019"
+      desc: 
+        - "Computing Scholarship"
+        - "Courses Taken: Data Structures, Python, Java, C, Parallel and Distributed Systems, Web and Mobile 1, Assembly, Databases"
+    - title: "Northeastern University"
+      degree: "Computer Science 2014"
+      desc:
+        - "Courses Taken: Networking I & II, Databases, Web Design"
+    - title: "Minuteman Tech"
+      degree: "High School Diploma, Computer Science 2014"
+      desc: 
+        - "Computer Science Vocational Certification"
+

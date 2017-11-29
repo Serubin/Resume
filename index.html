@@ -84,145 +84,89 @@ title: Resume
                             <div class="section-3 fill col-md-4">
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <div class="ng-isolate-scope">
-                                            <div class="row section-header header-underline">
-                                                <div class="font-primary col-md-12 fg-black uppercase medium">
-                                                    <span style="letter-spacing: 0px" class="bold"><span class="">Links</span></span>
-                                                </div>
-                                                <div class="col-md-12">
-                                                    <div class="section-header-underline bg-primary-dark underline-short underline-thin"><!-- Underline --></div>
-                                                </div>
+                                        <div class="row section-header header-underline">
+                                            <div class="font-primary col-md-12 fg-black uppercase medium">
+                                                <span style="letter-spacing: 0px" class="bold"><span class="">Links</span></span>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="section-header-underline bg-primary-dark underline-short underline-thin"><!-- Underline --></div>
                                             </div>
                                         </div>
                                         <div class="item-container row header-padding">
                                             <div class="col-md-12">
+                                                {% for link in resume.links %}
                                                 <div class="content-group">
                                                     <table class="cr-ordering-table crd-row">
                                                         <tbody>
                                                             <tr>
                                                                 <td class="crd-col">
-                                                                    <a href="http://serub.in" target="_blank" class="link"><span class="font-primary inline-block item-name" style="font-size: 15px;">Http:// serub.in</span></a>
+                                                                    <a href="{{ link.link }}" target="_blank" class="link"><span class="font-primary inline-block item-name" style="font-size: 15px;">{{ link.title }}</span></a>
                                                                 </td>
                                                             </tr>
                                                         </tbody>
                                                     </table>
                                                 </div>
-                                                <div class="content-group">
-                                                    <table class="cr-ordering-table crd-row">
-                                                        <tbody>
-                                                            <tr>
-                                                                <td class="crd-col">
-                                                                    <a href="https://github.com/Serubin" target="_blank" class="link"><span class="font-primary inline-block item-name" style="font-size: 15px;">Github:// serubin</span></a>
-                                                                </td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-                                                </div>
-                                                <div class="content-group">
-                                                    <table class="cr-ordering-table crd-row">
-                                                        <tbody>
-                                                            <tr>
-                                                                <td class="crd-col">
-                                                                    <a href="https://linkedin.com/in/Serubin" target="_blank" class="link"><span class="font-primary inline-block item-name" style="font-size: 15px;">LinkedIn:// serubin</span></a>
-                                                                    <div class="inline-block item-date"></div>
-                                                                </td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-                                                </div>
+                                                {% endfor %}
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <div class="ng-isolate-scope">
-                                            <div class="row section-header header-underline">
-                                                <div class="font-primary col-md-12 fg-black uppercase medium">
-                                                    <span style="letter-spacing: 0px" class="bold">Skills</span>
-                                                </div>
-                                                <div class="col-md-12">
-                                                    <div class="section-header-underline bg-primary-dark underline-short underline-thin"> <!-- Underline --></div>
-                                                </div>
+                                        <div class="row section-header header-underline">
+                                            <div class="font-primary col-md-12 fg-black uppercase medium">
+                                                <span style="letter-spacing: 0px" class="bold">Skills</span>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="section-header-underline bg-primary-dark underline-short underline-thin"> <!-- Underline --></div>
                                             </div>
                                         </div>
                                         <div class="skills-padding">
+                                            {% for list in resume.skills %}
                                             <div class="skills-container">
-                                                <span class="font-primary sg-name uppercase bold" style="font-size: 12px;">Programming: </span> <span class="skills-list font-secondary" style="font-size: 12px;">Python, JavaScript, Bash, PHP, HTML5, CSS/Sass, C, Vim, NodeJs, Java</span>
+                                                <span class="font-primary sg-name uppercase bold" style="font-size: 12px;">{{ list.title }}: </span> <span class="skills-list font-secondary" style="font-size: 12px;">{{ list.items | join: ", " }}</span>
                                             </div>
-                                            <div class="skills-container">
-                                                <span class="font-primary sg-name uppercase bold" style="font-size: 12px;">Software: </span> <span class="skills-list font-secondary" style="font-size: 12px;">Nginx, Apache, SQL, MongoDB, Arch, Debian, RHEL, MacOS, Android Systems</span>
-                                            </div>
-                                            <div class="skills-container">
-                                                <span class="font-primary sg-name uppercase bold" style="font-size: 12px;">Tools: </span> <span class="skills-list font-secondary" style="font-size: 12px;">Git, Bash/Zsh, Vim, Grunt, Gitlab CI</span>
-                                            </div>
+                                            {% endfor %}
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <div class="ng-isolate-scope">
-                                            <div class="row section-header header-underline">
-                                                <div class="font-primary col-md-12 fg-black uppercase medium">
-                                                    <span style="letter-spacing: 0px" class="bold">Education</span>
-                                                </div>
-                                                <div class="col-md-12">
-                                                    <div class="section-header-underline bg-primary-dark underline-short underline-thin"><!-- Underline --></div>
-                                                </div>
+                                        <div class="row section-header header-underline">
+                                            <div class="font-primary col-md-12 fg-black uppercase medium">
+                                                <span style="letter-spacing: 0px" class="bold">Education</span>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="section-header-underline bg-primary-dark underline-short underline-thin"><!-- Underline --></div>
                                             </div>
                                         </div>
                                         <div class="item-container row header-padding">
                                             <div class="col-md-12">
+                                                {% for school in resume.education %}
                                                 <div class="content-group">
                                                     <div class="font-primary content-title" style="font-size: 17px;">
-                                                        Rochester Institute of Technology
+                                                        {{ school.title }}
                                                     </div>
                                                     <div class="font-primary fg-primary-dark" style="font-size: 15px;">
-                                                        Bachelor's Degree, Computer Science 2019
+                                                        {{ school.degree }}
                                                     </div>
                                                     <div class="font-secondary" style="font-size: 12px;">
-                                                        Computing Scholarship
-                                                    </div>
-                                                    <div class="font-secondary" style="font-size: 12px;">
-                                                        Courses Taken: Data Structures, Python, Java, C, Parallel and Distributed Systems, Web and Mobile 1, Assembly, Databases (3.55 CS, GPA)
+                                                        {{ school.desc | join: "<br />" }}
                                                     </div>
                                                 </div>
-                                                <div class="content-group">
-                                                    <div class="font-primary content-title" style="font-size: 17px;">
-                                                        Northeastern University
-                                                    </div>
-                                                    <div class="font-primary fg-primary-dark" style="font-size: 15px;">
-                                                        Computer Science 2014
-                                                    </div>
-                                                    <div class="font-secondary" style="font-size: 12px;">
-                                                        Courses Taken: Networking I & II, Databases, Web Design (3.7 GPA)
-                                                    </div>
-                                                </div>
-                                                <div class="content-group">
-                                                    <div class="font-primary content-title" style="font-size: 17px;">
-                                                        Minuteman Tech
-                                                    </div>
-                                                    <div class="font-primary fg-primary-dark" style="font-size: 15px;">
-                                                        High School Diploma, Computer Science 2014
-                                                    </div>
-                                                    <div class="font-secondary" style="font-size: 12px;">
-                                                        Computer Science Vocational Certification (3.7 GPA)
-                                                    </div>
-                                                </div>
+                                                {% endfor %}
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <div class="ng-isolate-scope">
-                                            <div class="row section-header header-underline">
-                                                <div class="font-primary col-md-12 fg-black uppercase medium">
-                                                    <span style="letter-spacing: 0px" class="bold">Accomplishments & Certifications</span>
-                                                </div>
-                                                <div class="col-md-12">
-                                                    <div class="section-header-underline bg-primary-dark underline-short underline-thin"><!-- Underline --></div>
-                                                </div>
+                                        <div class="row section-header header-underline">
+                                            <div class="font-primary col-md-12 fg-black uppercase medium">
+                                                <span style="letter-spacing: 0px" class="bold">Accomplishments & Certifications</span>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="section-header-underline bg-primary-dark underline-short underline-thin"><!-- Underline --></div>
                                             </div>
                                         </div>
                                         <div class="item-container row header-padding">
@@ -277,14 +221,12 @@ title: Resume
                             <div class="section-4 fill col-md-8" style="height: 976px;">
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <div class="ng-isolate-scope">
-                                            <div class="row section-header header-underline">
-                                                <div class="font-primary col-md-12 fg-black uppercase medium">
-                                                    <span style="letter-spacing: 0px" class="bold">Summary</span>
-                                                </div>
-                                                <div class="col-md-12">
-                                                    <div class="section-header-underline bg-primary-dark underline-short underline-thin"><!-- Underline --></div>
-                                                </div>
+                                        <div class="row section-header header-underline">
+                                            <div class="font-primary col-md-12 fg-black uppercase medium">
+                                                <span style="letter-spacing: 0px" class="bold">Summary</span>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="section-header-underline bg-primary-dark underline-short underline-thin"><!-- Underline --></div>
                                             </div>
                                         </div>
                                         <div class="item-container row header-padding">
@@ -306,14 +248,12 @@ title: Resume
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <div class="ng-isolate-scope">
-                                            <div class="row section-header header-underline">
-                                                <div class="font-primary col-md-12 fg-black uppercase medium">
-                                                    <span style="letter-spacing: 0px" class="bold">Experience</span>
-                                                </div>
-                                                <div class="col-md-12">
-                                                    <div class="section-header-underline bg-primary-dark underline-short underline-thin"><!-- Underline --></div>
-                                                </div>
+                                        <div class="row section-header header-underline">
+                                            <div class="font-primary col-md-12 fg-black uppercase medium">
+                                                <span style="letter-spacing: 0px" class="bold">Experience</span>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="section-header-underline bg-primary-dark underline-short underline-thin"><!-- Underline --></div>
                                             </div>
                                         </div>
                                         <div class="item-container row header-padding">
@@ -486,14 +426,12 @@ title: Resume
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <div class="ng-isolate-scope">
-                                            <div class="row section-header header-underline">
-                                                <div class="font-primary col-md-12 fg-black uppercase medium">
-                                                    <span style="letter-spacing: 0px" class="bold"><span class="">Projects</span></span>
-                                                </div>
-                                                <div class="col-md-12">
-                                                    <div class="section-header-underline bg-primary-dark underline-short underline-thin"><!-- Underline --></div>
-                                                </div>
+                                        <div class="row section-header header-underline">
+                                            <div class="font-primary col-md-12 fg-black uppercase medium">
+                                                <span style="letter-spacing: 0px" class="bold"><span class="">Projects</span></span>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="section-header-underline bg-primary-dark underline-short underline-thin"><!-- Underline --></div>
                                             </div>
                                         </div>
                                         <div class="item-container row header-padding">
