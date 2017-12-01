@@ -58,9 +58,9 @@ experience:
       start: "May 2016"
       end: "Present"
       desc: 
-        - "Designing and implemnting high impact applications for a large range of government sponsors including DOD and DOJ"
+        - "Designing and implementing high impact applications for a large range of government sponsors including DOD and DOJ"
         - "Primary Contributor to several high profile cyber threat analysis tool based on open source data models. Working primarily on front and mid end development"
-        - "Developing robost investigation engines as a part of the GSA modernization effort within large scale agile teams"
+        - "Developing robust investigation engines as a part of the GSA modernization effort within large scale agile teams"
 
     - company: "MIT Lincoln Laboratory"
       location: "Lexington, MA"
@@ -108,7 +108,7 @@ education:
         - "Computing Scholarship"
         - "Courses Taken: Data Structures, Python, Java, C, Parallel and Distributed Systems, Web and Mobile 1, Assembly, Databases"
     - title: "Northeastern University"
-      degree: "Computer Science 2014"
+      degree: "Computer Science Certificate Program 2014"
       desc:
         - "Courses Taken: Networking I & II, Databases, Web Design"
     - title: "Minuteman Tech"
@@ -119,4 +119,4 @@ education:
 accomplishments:
   - "President of RIT Linux User Group and Free and Open Source at RIT"
   - "OSHA certified (10 hours)"
-  - "SkillsUSA <br /> National Web Design Bronze Medalist"
+  - "National Web Design Bronze Medalist <br /> SkillsUSA"
