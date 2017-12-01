@@ -180,39 +180,19 @@ title: Resume
                                                         </tbody>
                                                     </table>
                                                 </div>
+                                                {% for item in resume.accomplishments %}
                                                 <div class="content-group">
                                                     <table class="cr-ordering-table crd-row">
                                                         <tbody>
                                                             <tr>
                                                                 <td class="crd-col">
-                                                                    <span class="font-primary inline-block item-name" style="font-size: 15px;">President of RIT Linux User Group and Free and Open Source at RIT</span>
+                                                                    <span class="font-primary inline-block item-name" style="font-size: 15px;">{{ item }}</span>
                                                                 </td>
                                                             </tr>
                                                         </tbody>
                                                     </table>
                                                 </div>
-                                                <div class="content-group">
-                                                    <table class="cr-ordering-table crd-row">
-                                                        <tbody>
-                                                            <tr>
-                                                                <td class="crd-col">
-                                                                    <span class="font-primary inline-block item-name" style="font-size: 15px;">OSHA certified (10 hours)</span>
-                                                                </td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-                                                </div>
-                                                <div class="content-group">
-                                                    <table class="cr-ordering-table crd-row">
-                                                        <tbody>
-                                                            <tr>
-                                                                <td class="crd-col">
-                                                                    <span class="item-title font-primary inline-block" style="font-size: 15px;">SkillsUSA</span> <span class="font-primary inline-block item-name" style="font-size: 15px;">National Web Design Bronze Medalist</span>
-                                                                </td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-                                                </div>
+                                                {% endfor %}
                                             </div>
                                         </div>
                                     </div>
@@ -236,7 +216,7 @@ title: Resume
                                                         <div class="content-group">
                                                             <div class="font-secondary content-paragraph ng-pristine ng-untouched ng-valid" style="font-size: 12px;">
                                                                 <p>
-                                                                    Seeking co-op opportunities in Software Engineering, specifically looking for experience with modern web applications and other connected platforms. Also seeking long term options.
+                                                                    {{ resume.objective }}
                                                                 </p>
                                                             </div>
                                                         </div>
@@ -258,16 +238,18 @@ title: Resume
                                         </div>
                                         <div class="item-container row header-padding">
                                             <div class="col-md-12">
+                                                <!-- Job Experience -->
+                                                {% for job in resume.experience %}
                                                 <div class="content-group" id="MITRE">
                                                     <table class="cr-ordering-table crd-row">
                                                         <tbody>
                                                             <tr>
                                                                 <td class="crd-col">
-                                                                    <span class="font-primary inline-block item-name" style="font-size: 17px;">MITRE Corporation</span>
+                                                                    <span class="font-primary inline-block item-name" style="font-size: 17px;">{{ job.company }}</span>
                                                                 </td>
                                                                 <td class="crd-col align-right right-col">
                                                                     <div class="inline-block employer-location">
-                                                                        <span class="font-primary" style="font-size: 15px;">McLean, Va</span>
+                                                                        <span class="font-primary" style="font-size: 15px;">{{ job.location }}</span>
                                                                     </div>
                                                                 </td>
                                                             </tr>
@@ -277,11 +259,11 @@ title: Resume
                                                         <tbody>
                                                             <tr>
                                                                 <td class="crd-col">
-                                                                    <span class="employer-title font-primary inline-block fg-primary-dark" style="font-size: 15px;">Cyber Security Software Engineer</span>
+                                                                    <span class="employer-title font-primary inline-block fg-primary-dark" style="font-size: 15px;">{{ job.position }}</span>
                                                                 </td>
                                                                 <td class="crd-col align-right right-col">
                                                                     <div class="inline-block item-date">
-                                                                        <span class="date font-primary cr-date" style="font-size: 15px;"><span class="">May 2016</span> <span class="">to</span> <span class="" id="e-490f-c">Present</span></span>
+                                                                        <span class="date font-primary cr-date" style="font-size: 15px;"><span class="">{{ job.start }}</span> <span class="">to</span> <span class="">{{ job.end }}</span></span>
                                                                     </div>
                                                                 </td>
                                                             </tr>
@@ -289,137 +271,13 @@ title: Resume
                                                     </table>
                                                     <div class="font-secondary content-paragraph description ng-pristine ng-untouched ng-valid ng-isolate-scope" style="font-size: 12px;">
                                                         <ul>
-                                                            <li>Working on a range of projects for various sponsors such as DoD and DoJ agencies
-                                                            </li>
-                                                            <li>independently developing low level serial communication emulation software with full scripting APIs
-                                                            </li>
-                                                            <li>Developing high level network and serial detection and mapping software with a small research team
-                                                            </li>
-                                                            <li>Primary Contributor to a high profile cyber threat analysis tool based on open source data models working largely on front and mid end development and refactoring
-                                                            </li>
+                                                            {% for line in job.desc %}
+                                                            <li> {{ line }} </li>
+                                                            {% endfor %}
                                                         </ul>
                                                     </div>
                                                 </div>
-                                                <div class="content-group" id="MIT">
-                                                    <table class="cr-ordering-table crd-row">
-                                                        <tbody>
-                                                            <tr>
-                                                                <td class="crd-col">
-                                                                    <span class="font-primary inline-block item-name" style="font-size: 17px;">MIT Lincoln Laboratory</span>
-                                                                </td>
-                                                                <td class="crd-col align-right right-col">
-                                                                    <div class="inline-block employer-location">
-                                                                        <span class="font-primary" style="font-size: 15px;">Lexington, MA</span>
-                                                                    </div>
-                                                                </td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-                                                    <table class="cr-ordering-table crd-row">
-                                                        <tbody>
-                                                            <tr>
-                                                                <td class="crd-col">
-                                                                    <span class="employer-title font-primary inline-block fg-primary-dark" style="font-size: 15px;">Software Developer</span>
-                                                                </td>
-                                                                <td class="crd-col align-right right-col">
-                                                                    <div class="inline-block item-date">
-                                                                        <span class="date font-primary cr-date" style="font-size: 15px;"><span class="">Feb 2014</span> <span class="">to</span> <span class="">Aug 2015</span></span>
-                                                                    </div>
-                                                                </td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-                                                    <div class="font-secondary content-paragraph description ng-pristine ng-untouched ng-valid ng-isolate-scope" style="font-size: 12px;">
-                                                        <ul>
-                                                            <li>Developed and improved proprietary image detection algorithms and related code bases using Matlab and several C++ libraries
-                                                            </li>
-                                                            <li>Optimized detection processing times down by 70% using parallel computing techniques and developing efficient SQL search queries.
-                                                            </li>
-                                                            <li>Created a front end web visualizer for processed detection using asynchronous web paradigms and Material UI
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="content-group" id="RIT">
-                                                    <table class="cr-ordering-table crd-row">
-                                                        <tbody>
-                                                            <tr>
-                                                                <td class="crd-col">
-                                                                    <span class="font-primary inline-block item-name" style="font-size: 17px;">RIT Information Technology Services</span>
-                                                                </td>
-                                                                <td class="crd-col align-right right-col">
-                                                                    <div class="inline-block employer-location">
-                                                                        <span class="font-primary" style="font-size: 15px;">Rochester, NY</span>
-                                                                    </div>
-                                                                </td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-                                                    <table class="cr-ordering-table crd-row">
-                                                        <tbody>
-                                                            <tr>
-                                                                <td class="crd-col">
-                                                                    <span class="employer-title font-primary inline-block fg-primary-dark" style="font-size: 15px;">Software Developer</span>
-                                                                </td>
-                                                                <td class="crd-col align-right right-col">
-                                                                    <div class="inline-block item-date">
-                                                                        <span class="date font-primary cr-date" style="font-size: 15px;"><span class="">Sep 2014</span> <span class="">to</span> <span class="">Jan 2017</span></span>
-                                                                    </div>
-                                                                </td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-                                                    <div class="font-secondary content-paragraph description ng-pristine ng-untouched ng-valid ng-isolate-scope" style="font-size: 12px;">
-                                                        <ul>
-                                                            <li>Modernized legacy applications and scripts in order to automate various tasks
-                                                            </li>
-                                                            <li>Developed internal tools such as automated hiring tools and applications to prefilled Scantron sheets.
-                                                            </li>
-                                                            <li>Handled ongoing maintenance of various legacy applications and tools
-                                                            </li>
-                                                            <li>Contributed to the administration of several production Linux servers
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="content-group" id="Escapecraft">
-                                                    <table class="cr-ordering-table crd-row">
-                                                        <tbody>
-                                                            <tr>
-                                                                <td class="crd-col">
-                                                                    <span class="font-primary inline-block item-name" style="font-size: 17px;">Escapecraft</span>
-                                                                </td>
-                                                                <td class="crd-col align-right right-col">
-                                                                    <div class="inline-block employer-location">
-                                                                        <span class="font-primary" style="font-size: 15px;">Online Community</span>
-                                                                    </div>
-                                                                </td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-                                                    <table class="cr-ordering-table crd-row">
-                                                        <tbody>
-                                                            <tr>
-                                                                <td class="crd-col">
-                                                                    <span class="employer-title font-primary inline-block fg-primary-dark" style="font-size: 15px;">System Administrator</span>
-                                                                </td>
-                                                                <td class="crd-col align-right right-col">
-                                                                    <div class="inline-block item-date">
-                                                                        <span class="date font-primary cr-date" style="font-size: 15px;"><span class="">Sep 2010</span> <span class="">to</span> <span class="">Dec 2015</span></span>
-                                                                    </div>
-                                                                </td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-                                                    <div class="font-secondary content-paragraph description ng-pristine ng-untouched ng-valid ng-isolate-scope" style="font-size: 12px;">
-                                                        <ul>
-                                                            <li>Maintained long term server functionality including regular updates and abnormal failure events
-                                                            </li>
-                                                            <li>Developed an in-depth administration plugin to "kick" and "ban" unruly users
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
+                                                {% endfor %}
                                             </div>
                                         </div>
                                     </div>
@@ -436,72 +294,24 @@ title: Resume
                                         </div>
                                         <div class="item-container row header-padding">
                                             <div class="col-md-12">
+                                                {% for project in resume.projects %}
                                                 <div class="content-group">
                                                     <table class="cr-ordering-table crd-row">
                                                         <tbody>
                                                             <tr>
                                                                 <td class="crd-col">
-                                                                    <span class="font-primary content-title" style="font-size: 15px;">MindCloud</span>
+                                                                    <span class="font-primary content-title" style="font-size: 15px;">{{ project.title }}</span>
                                                                 </td>
                                                             </tr>
                                                         </tbody>
                                                     </table>
                                                     <div class="font-secondary content-paragraph description ng-isolate-scope ng-valid" style="font-size: 12px;">
                                                         <p>
-                                                            Developed an MVC website aimed at creating a project and solution based social network. Written in PHP and JavaScript using the jQuery and Foundation libraries. (<a href="https://s-r.io/mindcld">s-r.io/mindcld</a>)
+                                                            {{ project.desc }}
                                                         </p>
                                                     </div>
                                                 </div>
-                                                <div class="content-group">
-                                                    <table class="cr-ordering-table crd-row">
-                                                        <tbody>
-                                                            <tr>
-                                                                <td class="crd-col">
-                                                                    <span class="font-primary content-title" style="font-size: 15px;">Manglr</span>
-                                                                </td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-                                                    <div class="font-secondary content-paragraph description ng-isolate-scope ng-valid" style="font-size: 12px;">
-                                                        <p>
-                                                            A modern open source URL shorterner designed as a flexible alternative to existing but antiquated technologies. (<a href="https://s-r.io/manglr">s-r.io/manglr</a>)
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div class="content-group">
-                                                    <table class="cr-ordering-table crd-row">
-                                                        <tbody>
-                                                            <tr>
-                                                                <td class="crd-col">
-                                                                    <span class=""><span class="content-title"><span class="font-primary" style="font-size: 15px;">Serubin.net</span></span></span>
-                                                                </td>
-                                                                <td class="crd-col align-right right-col">
-                                                                    <div class="inline-block item-date"></div>
-                                                                </td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-                                                    <div class="font-secondary content-paragraph description ng-isolate-scope ng-valid" style="font-size: 12px;">
-                                                        <p>
-                                                            A personal portfolio written in HTML5, CSS3, and JavaScript. (<a href="https://s-r.io/sernsrc">s-r.io/sernsrc</a>)
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div class="content-group">
-                                                    <table class="cr-ordering-table crd-row">
-                                                        <tbody>
-                                                            <tr>
-                                                                <td class="crd-col">
-                                                                    <span class="font-primary content-title" style="font-size: 15px;">Server Stack</span>
-                                                                </td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-                                                    <div class="font-secondary content-paragraph description ng-isolate-scope ng-valid" style="font-size: 12px;">
-                                                        <p>
-                                                            A self-hosted, high-uptime, multi-server infrastructure hosting various websites and web based tools, as well as a legacy cross-site SSO framework developed from scratch
-                                                        </p>
-                                                    </div>
+                                                {% endfor %}
                                                 </div>
                                             </div>
                                         </div>

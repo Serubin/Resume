@@ -1,0 +1,122 @@
+name: "Solomon Rubin"
+objective: "Continuing technical and professional growth with real world experience, specifically in leadership roles and emerging software techniques."
+
+contact_list:
+  - title: "serubin@serubin.net"
+    icon: "fa-envelope"
+    link: "mailto:serubin@serubin.net"
+  - title: "serub.in"
+    icon: "fa-globe"
+    link: "http://serub.in"
+
+links:
+  - title: "Http:// serub.in"
+    link: "http://serub.in"
+  - title: "Github:// serubin"
+    link: "https://github.com/Serubin"
+  - title: "Linkedin:// serubin"
+    link: "https://linkedin.com/in/serubin"
+
+skills:
+  - title: "Programming"
+    items:
+      - "Python"
+      - "Javascript"
+      - "NodeJS"
+      - "Bash"
+      - "PHP"
+      - "HTML5"
+      - "CSS/SASS"
+      - "C"
+      - "Java"
+      - "Ruby"
+  - title: "Tools"
+    items:
+      - "Git"
+      - "Bash/Zsh"
+      - "Vim"
+      - "Webpack"
+      - "Grunt"
+      - "Maven"
+      - "Travis/Gitlab CI"
+  - title: "Software"
+    items:
+      - "Nginx"
+      - "Apache"
+      - "SQL"
+      - "MongoDB"
+      - "Arch"
+      - "Debian"
+      - "REHL"
+      - "MacOS"
+      - "Android"
+
+experience:
+    - company: "MITRE Corporation"
+      location: "McLean, Va"
+      position: "Cyber Security and Software Engineer"
+      start: "May 2016"
+      end: "Present"
+      desc: 
+        - "Designing and implemnting high impact applications for a large range of government sponsors including DOD and DOJ"
+        - "Primary Contributor to several high profile cyber threat analysis tool based on open source data models. Working primarily on front and mid end development"
+        - "Developing robost investigation engines as a part of the GSA modernization effort within large scale agile teams"
+
+    - company: "MIT Lincoln Laboratory"
+      location: "Lexington, MA"
+      position: "Software Engineer"
+      start: "Feb 2014"
+      end: "Aug 2015"
+      desc: 
+        - "Developed and improved proprietary image detection algorithms and related code bases using Matlab and several C++ libraries"
+        - "Optimized detection processing times down by 70% using parallel computing techniques and developing efficient SQL search queries."
+        - "Created a front end web visualizer for processed detection using asynchronous web paradigms and Material UI"
+
+    - company: "RIT Information Technology Services"
+      location: "Rochester, NY"
+      position: "Software Developer"
+      start: "Sep 2014"
+      end: "Jan 2017"
+      desc: 
+        - "Modernized legacy applications and scripts in order to automate various tasks"
+        - "Developed internal tools such as automated hiring tools and applications to prefilled Scantron sheets"
+        - "Handled ongoing maintenance of various legacy applications and tools"
+        - "Contributed to the administration of several production Linux servers"
+    - company: "Escapecraft"
+      location: "Online"
+      position: "System Administrator"
+      start: "Sep 2010"
+      end: "Dec 2015"
+      desc:
+        - "Maintained long term server functionality including regular updates and abnormal failure events"
+        - "Developed an in-depth administration plugin to \"kick\" and \"ban\" unruly users with an interactive web front-end"
+
+projects:
+    - title: "PulseClient"
+      desc: "A progressive webapp for texting (SMS/MMS) from your computer using Vue.js and the PulseSMS API (<a href=\"https://s-r.io/pulse\">s-r.io/pulse</a>)"
+    - title: "Manglr"
+      desc: "A modern open source URL shorterner designed as a flexible alternative to existing but antiquated technologies. (<a href=\"https://s-r.io/manglr\">s-r.io/manglr</a>)"
+    - title: "Mindcloud"
+      desc: "An MVC website aimed at creating a project and solution based social network. Written in PHP and JavaScript using the jQuery and Foundation libraries. (<a href=\"https://s-r.io/mindcld\">s-r.io/mindcld</a>)"
+    - title: "Serubin.net"
+      desc: "A personal portfolio written in HTML5, CSS3, and JavaScript. (<a href=\"https://s-r.io/sernsrc\">s-r.io/sernsrc</a>)"
+
+education:
+    - title: "Rochester Institute of Technology"
+      degree: "Bachelor's Degree, Computer Science 2019"
+      desc: 
+        - "Computing Scholarship"
+        - "Courses Taken: Data Structures, Python, Java, C, Parallel and Distributed Systems, Web and Mobile 1, Assembly, Databases"
+    - title: "Northeastern University"
+      degree: "Computer Science 2014"
+      desc:
+        - "Courses Taken: Networking I & II, Databases, Web Design"
+    - title: "Minuteman Tech"
+      degree: "High School Diploma, Computer Science 2014"
+      desc: 
+        - "Computer Science Vocational Certification"
+
+accomplishments:
+  - "President of RIT Linux User Group and Free and Open Source at RIT"
+  - "OSHA certified (10 hours)"
+  - "SkillsUSA <br /> National Web Design Bronze Medalist"
