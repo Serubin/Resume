@@ -9,312 +9,186 @@ title: Resume
 
 {% assign resume = site.data.resume %}
 
-<html lang="en">
-    <head>
-        <meta name="generator" content="HTML Tidy for HTML5 for Mac OS X version 5.2.0">
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <meta name="viewport" content="width=device-width">
-        <meta name="robots" content="noindex">
-        <link rel="icon" href="/favicon.ico" type="image/x-icon">
-        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-        <link href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
-        <script src="https://code.jquery.com/jquery-2.1.1.min.js">
-        </script>
-        <link rel="stylesheet" href="stylesheets/main.css" media="all">
-        <link rel="stylesheet" href="stylesheets/print.css" media="print">
-        <link rel="stylesheet" href="stylesheets/custom.css" media="all">
-        <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Varela+Round:400,700" rel="stylesheet" type="text/css">
-        <title>
-            {{ resume.name }} - Resume
-        </title>
-        <style type="text/css">
-        :root .container > .infoBoxList > .shareInfoBox
-        { display: none !important; }
-        </style>
-    </head>
-    <body>
-        <div id="page-wrapper">
-            <div class="container document-container pages" style="height: 1100px !important">
-                <div class="page page-1" style="height: 1100px !important;overflow:hidden;">
-                    <div class="page-content" style="margin-left: 35px; margin-right: 35px; height: 1085px;">
-                        <div class="row" style="height: 15px"></div>
-                        <div class="row top-header">
-                            <div class="section-1 col-md-12">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="align-center">
-                                            <div class="nameplate nameplate-vertical" style="letter-spacing: 1px">
-                                                <div class="font-primary nameplate-name ng-isolate-scope uppercase row" style="font-size: 42px;">
-                                                    <div class="col-md-12">
-                                                        <span class="nameplate-name-value fg-black bold">{{ resume.name }}</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="section-2 col-md-12">
-                                <div class="row">
-                                    <div class="col-md-12 fg-black hv-primary align-center cr-c-horizontal">
-                                        <div class="contact-container">
-                                            <div class="row">
-                                                <div class="col-md-12">
-                                                    <div class="ng-isolate-scope inline-block" style="font-size: 14px;">
-                                                        {% for link in resume.contact_list %}
-                                                        <div class="cl-outer-row ng-isolate-scope cr-ct-upper inline-left">
-                                                            <div class="cl-content-wrapper">
-                                                                <a href="{{ link.link }}" target="blank" class="contact-icon-link hover-enabled inline-left"><i class="fa {{ link.icon }} contact-icon"></i> <span class="font-primary icon-link-text">{{ link.title }} </span></a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="inline-left"></div>
-                                                        {% endfor %}
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+{% include_relative _includes/header.html %}
+
+<div class="row" style="height: 15px"></div>
+<div class="row top-header">
+    <div class="section-1 col-md-12">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="align-center">
+                    <div class="nameplate nameplate-vertical" style="letter-spacing: 1px">
+                        <div class="font-primary nameplate-name ng-isolate-scope uppercase row" style="font-size: 42px;">
+                            <div class="col-md-12">
+                                <span class="nameplate-name-value fg-black bold">{{ resume.name }}</span>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="section-3 fill col-md-4">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="row section-header header-underline">
-                                            <div class="font-primary col-md-12 fg-black uppercase medium">
-                                                <span style="letter-spacing: 0px" class="bold"><span class="">Links</span></span>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <div class="section-header-underline bg-primary-dark underline-short underline-thin"><!-- Underline --></div>
-                                            </div>
-                                        </div>
-                                        <div class="item-container row header-padding">
-                                            <div class="col-md-12">
-                                                {% for link in resume.links %}
-                                                <div class="content-group">
-                                                    <table class="cr-ordering-table crd-row">
-                                                        <tbody>
-                                                            <tr>
-                                                                <td class="crd-col">
-                                                                    <a href="{{ link.link }}" target="_blank" class="link"><span class="font-primary inline-block item-name" style="font-size: 15px;">{{ link.title }}</span></a>
-                                                                </td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-                                                </div>
-                                                {% endfor %}
-                                            </div>
-                                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-2 col-md-12">
+        <div class="row">
+            <div class="col-md-12 fg-black hv-primary align-center cr-c-horizontal">
+                <div class="contact-container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="ng-isolate-scope inline-block" style="font-size: 14px;">
+                                {% for link in resume.contact_list %}
+                                <div class="cl-outer-row ng-isolate-scope cr-ct-upper inline-left">
+                                    <div class="cl-content-wrapper">
+                                        <a href="{{ link.link }}" target="blank" class="contact-icon-link hover-enabled inline-left"><i class="fa {{ link.icon }} contact-icon"></i> <span class="font-primary icon-link-text">{{ link.title }} </span></a>
                                     </div>
                                 </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="row section-header header-underline">
-                                            <div class="font-primary col-md-12 fg-black uppercase medium">
-                                                <span style="letter-spacing: 0px" class="bold">Skills</span>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <div class="section-header-underline bg-primary-dark underline-short underline-thin"> <!-- Underline --></div>
-                                            </div>
-                                        </div>
-                                        <div class="skills-padding">
-                                            {% for list in resume.skills %}
-                                            <div class="skills-container">
-                                                <span class="font-primary sg-name uppercase bold" style="font-size: 12px;">{{ list.title }}: </span> <span class="skills-list font-secondary" style="font-size: 12px;">{{ list.items | join: ", " }}</span>
-                                            </div>
-                                            {% endfor %}
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="row section-header header-underline">
-                                            <div class="font-primary col-md-12 fg-black uppercase medium">
-                                                <span style="letter-spacing: 0px" class="bold">Education</span>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <div class="section-header-underline bg-primary-dark underline-short underline-thin"><!-- Underline --></div>
-                                            </div>
-                                        </div>
-                                        <div class="item-container row header-padding">
-                                            <div class="col-md-12">
-                                                {% for school in resume.education %}
-                                                <div class="content-group">
-                                                    <div class="font-primary content-title" style="font-size: 17px;">
-                                                        {{ school.title }}
-                                                    </div>
-                                                    <div class="font-primary fg-primary-dark" style="font-size: 15px;">
-                                                        {{ school.degree }}
-                                                    </div>
-                                                    <div class="font-secondary" style="font-size: 12px;">
-                                                        {{ school.desc | join: "<br />" }}
-                                                    </div>
-                                                </div>
-                                                {% endfor %}
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="row section-header header-underline">
-                                            <div class="font-primary col-md-12 fg-black uppercase medium">
-                                                <span style="letter-spacing: 0px" class="bold">Accomplishments & Certifications</span>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <div class="section-header-underline bg-primary-dark underline-short underline-thin"><!-- Underline --></div>
-                                            </div>
-                                        </div>
-                                        <div class="item-container row header-padding">
-                                            <div class="col-md-12">
-                                                <div class="content-group">
-                                                    <table class="cr-ordering-table crd-row">
-                                                        <tbody>
-                                                            <tr>
-                                                                <td class="crd-col"><!-- Item removed --></td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-                                                </div>
-                                                {% for item in resume.accomplishments %}
-                                                <div class="content-group">
-                                                    <table class="cr-ordering-table crd-row">
-                                                        <tbody>
-                                                            <tr>
-                                                                <td class="crd-col">
-                                                                    <span class="font-primary inline-block item-name" style="font-size: 15px;">{{ item }}</span>
-                                                                </td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-                                                </div>
-                                                {% endfor %}
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                <div class="inline-left"></div>
+                                {% endfor %}
                             </div>
-                            <div class="section-4 fill col-md-8" style="height: 976px;">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="row section-header header-underline">
-                                            <div class="font-primary col-md-12 fg-black uppercase medium">
-                                                <span style="letter-spacing: 0px" class="bold">Summary</span>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <div class="section-header-underline bg-primary-dark underline-short underline-thin"><!-- Underline --></div>
-                                            </div>
-                                        </div>
-                                        <div class="item-container row header-padding">
-                                            <div class="col-md-12">
-                                                <div class="">
-                                                    <div class="">
-                                                        <div class="content-group">
-                                                            <div class="font-secondary content-paragraph ng-pristine ng-untouched ng-valid" style="font-size: 12px;">
-                                                                <p>
-                                                                    {{ resume.objective }}
-                                                                </p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="row section-header header-underline">
-                                            <div class="font-primary col-md-12 fg-black uppercase medium">
-                                                <span style="letter-spacing: 0px" class="bold">Experience</span>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <div class="section-header-underline bg-primary-dark underline-short underline-thin"><!-- Underline --></div>
-                                            </div>
-                                        </div>
-                                        <div class="item-container row header-padding">
-                                            <div class="col-md-12">
-                                                <!-- Job Experience -->
-                                                {% for job in resume.experience %}
-                                                <div class="content-group" id="MITRE">
-                                                    <table class="cr-ordering-table crd-row">
-                                                        <tbody>
-                                                            <tr>
-                                                                <td class="crd-col">
-                                                                    <span class="font-primary inline-block item-name" style="font-size: 17px;">{{ job.company }}</span>
-                                                                </td>
-                                                                <td class="crd-col align-right right-col">
-                                                                    <div class="inline-block employer-location">
-                                                                        <span class="font-primary" style="font-size: 15px;">{{ job.location }}</span>
-                                                                    </div>
-                                                                </td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-                                                    <table class="cr-ordering-table crd-row">
-                                                        <tbody>
-                                                            <tr>
-                                                                <td class="crd-col">
-                                                                    <span class="employer-title font-primary inline-block fg-primary-dark" style="font-size: 15px;">{{ job.position }}</span>
-                                                                </td>
-                                                                <td class="crd-col align-right right-col">
-                                                                    <div class="inline-block item-date">
-                                                                        <span class="date font-primary cr-date" style="font-size: 15px;"><span class="">{{ job.start }}</span> <span class="">to</span> <span class="">{{ job.end }}</span></span>
-                                                                    </div>
-                                                                </td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-                                                    <div class="font-secondary content-paragraph description ng-pristine ng-untouched ng-valid ng-isolate-scope" style="font-size: 12px;">
-                                                        <ul>
-                                                            {% for line in job.desc %}
-                                                            <li> {{ line }} </li>
-                                                            {% endfor %}
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                {% endfor %}
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="row section-header header-underline">
-                                            <div class="font-primary col-md-12 fg-black uppercase medium">
-                                                <span style="letter-spacing: 0px" class="bold"><span class="">Projects</span></span>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <div class="section-header-underline bg-primary-dark underline-short underline-thin"><!-- Underline --></div>
-                                            </div>
-                                        </div>
-                                        <div class="item-container row header-padding">
-                                            <div class="col-md-12">
-                                                {% for project in resume.projects %}
-                                                <div class="content-group">
-                                                    <table class="cr-ordering-table crd-row">
-                                                        <tbody>
-                                                            <tr>
-                                                                <td class="crd-col">
-                                                                    <span class="font-primary content-title" style="font-size: 15px;">{{ project.title }}</span>
-                                                                </td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-                                                    <div class="font-secondary content-paragraph description ng-isolate-scope ng-valid" style="font-size: 12px;">
-                                                        <p>
-                                                            {{ project.desc }}
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                {% endfor %}
-                                                </div>
-                                            </div>
-                                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="section-3 fill col-md-4">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row section-header header-underline">
+                    <div class="font-primary col-md-12 fg-black uppercase medium">
+                        <span style="letter-spacing: 0px" class="bold"><span class="">Links</span></span>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="section-header-underline bg-primary-dark underline-short underline-thin"><!-- Underline --></div>
+                    </div>
+                </div>
+                <div class="item-container row header-padding">
+                    <div class="col-md-12">
+                        {% for link in resume.links %}
+                        <div class="content-group">
+                            <table class="cr-ordering-table crd-row">
+                                <tbody>
+                                    <tr>
+                                        <td class="crd-col">
+                                            <a href="{{ link.link }}" target="_blank" class="link"><span class="font-primary inline-block item-name" style="font-size: 15px;">{{ link.title }}</span></a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row section-header header-underline">
+                    <div class="font-primary col-md-12 fg-black uppercase medium">
+                        <span style="letter-spacing: 0px" class="bold">Skills</span>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="section-header-underline bg-primary-dark underline-short underline-thin"> <!-- Underline --></div>
+                    </div>
+                </div>
+                <div class="skills-padding">
+                    {% for list in resume.skills %}
+                    <div class="skills-container">
+                        <span class="font-primary sg-name uppercase bold" style="font-size: 12px;">{{ list.title }}: </span> <span class="skills-list font-secondary" style="font-size: 12px;">{{ list.items | join: ", " }}</span>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row section-header header-underline">
+                    <div class="font-primary col-md-12 fg-black uppercase medium">
+                        <span style="letter-spacing: 0px" class="bold">Education</span>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="section-header-underline bg-primary-dark underline-short underline-thin"><!-- Underline --></div>
+                    </div>
+                </div>
+                <div class="item-container row header-padding">
+                    <div class="col-md-12">
+                        {% for school in resume.education %}
+                        <div class="content-group">
+                            <div class="font-primary content-title" style="font-size: 17px;">
+                                {{ school.title }}
+                            </div>
+                            <div class="font-primary fg-primary-dark" style="font-size: 15px;">
+                                {{ school.degree }}
+                            </div>
+                            <div class="font-secondary" style="font-size: 12px;">
+                                {{ school.desc | join: "<br />" }}
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row section-header header-underline">
+                    <div class="font-primary col-md-12 fg-black uppercase medium">
+                        <span style="letter-spacing: 0px" class="bold">Accomplishments & Certifications</span>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="section-header-underline bg-primary-dark underline-short underline-thin"><!-- Underline --></div>
+                    </div>
+                </div>
+                <div class="item-container row header-padding">
+                    <div class="col-md-12">
+                        <div class="content-group">
+                            <table class="cr-ordering-table crd-row">
+                                <tbody>
+                                    <tr>
+                                        <td class="crd-col"><!-- Item removed --></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        {% for item in resume.accomplishments %}
+                        <div class="content-group">
+                            <table class="cr-ordering-table crd-row">
+                                <tbody>
+                                    <tr>
+                                        <td class="crd-col">
+                                            <span class="font-primary inline-block item-name" style="font-size: 15px;">{{ item }}</span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-4 fill col-md-8" style="height: 976px;">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row section-header header-underline">
+                    <div class="font-primary col-md-12 fg-black uppercase medium">
+                        <span style="letter-spacing: 0px" class="bold">Summary</span>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="section-header-underline bg-primary-dark underline-short underline-thin"><!-- Underline --></div>
+                    </div>
+                </div>
+                <div class="item-container row header-padding">
+                    <div class="col-md-12">
+                        <div class="">
+                            <div class="">
+                                <div class="content-group">
+                                    <div class="font-secondary content-paragraph ng-pristine ng-untouched ng-valid" style="font-size: 12px;">
+                                        <p>
+                                            {{ resume.objective }}
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -323,5 +197,98 @@ title: Resume
                 </div>
             </div>
         </div>
-    </body>
-</html>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row section-header header-underline">
+                    <div class="font-primary col-md-12 fg-black uppercase medium">
+                        <span style="letter-spacing: 0px" class="bold">Experience</span>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="section-header-underline bg-primary-dark underline-short underline-thin"><!-- Underline --></div>
+                    </div>
+                </div>
+                <div class="item-container row header-padding">
+                    <div class="col-md-12">
+                        <!-- Job Experience -->
+                        {% for job in resume.experience %}
+                        <div class="content-group" id="MITRE">
+                            <table class="cr-ordering-table crd-row">
+                                <tbody>
+                                    <tr>
+                                        <td class="crd-col">
+                                            <span class="font-primary inline-block item-name" style="font-size: 17px;">{{ job.company }}</span>
+                                        </td>
+                                        <td class="crd-col align-right right-col">
+                                            <div class="inline-block employer-location">
+                                                <span class="font-primary" style="font-size: 15px;">{{ job.location }}</span>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <table class="cr-ordering-table crd-row">
+                                <tbody>
+                                    <tr>
+                                        <td class="crd-col">
+                                            <span class="employer-title font-primary inline-block fg-primary-dark" style="font-size: 15px;">{{ job.position }}</span>
+                                        </td>
+                                        <td class="crd-col align-right right-col">
+                                            <div class="inline-block item-date">
+                                                <span class="date font-primary cr-date" style="font-size: 15px;"><span class="">{{ job.start }}</span> <span class="">to</span> <span class="">{{ job.end }}</span></span>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div class="font-secondary content-paragraph description ng-pristine ng-untouched ng-valid ng-isolate-scope" style="font-size: 12px;">
+                                <ul>
+                                    {% for line in job.desc %}
+                                    <li> {{ line }} </li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row section-header header-underline">
+                    <div class="font-primary col-md-12 fg-black uppercase medium">
+                        <span style="letter-spacing: 0px" class="bold"><span class="">Projects</span></span>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="section-header-underline bg-primary-dark underline-short underline-thin"><!-- Underline --></div>
+                    </div>
+                </div>
+                <div class="item-container row header-padding">
+                    <div class="col-md-12">
+                        {% for project in resume.projects %}
+                        <div class="content-group">
+                            <table class="cr-ordering-table crd-row">
+                                <tbody>
+                                    <tr>
+                                        <td class="crd-col">
+                                            <span class="font-primary content-title" style="font-size: 15px;">{{ project.title }}</span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div class="font-secondary content-paragraph description ng-isolate-scope ng-valid" style="font-size: 12px;">
+                                <p>
+                                    {{ project.desc }}
+                                </p>
+                            </div>
+                        </div>
+                        {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% include_relative _includes/footer.html %}
