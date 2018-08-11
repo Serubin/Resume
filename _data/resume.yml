@@ -61,6 +61,7 @@ experience:
         - "Designing and implementing high impact applications for a large range of government sponsors including DOD and DOJ"
         - "Primary contributor to several high profile cyber threat analysis tool based on open source data models. Working primarily on front and mid end development"
         - "Developing robust investigation engines as a part of the GSA modernization effort within large scale agile teams"
+        - "Recievied Federal Law Enforcment Award and Directors Award for technical efforts"
 
     - company: "RIT Information Technology Services"
       location: "Rochester, NY"
@@ -69,9 +70,8 @@ experience:
       end: "Jan 2017"
       desc: 
         - "Modernized legacy applications and scripts in order to automate various tasks"
-        - "Developed internal tools such as automated hiring tools and applications to prefilled Scantron sheets"
-        - "Oversaw ongoing maintenance of various legacy applications and tools"
-        - "Contributed to the administration of several production Linux servers"
+        - "Developed internal tools such as automated hiring tools and applications to prefilled Scantron sheets and handled the production deployments of these tools"
+        - "Handled ongoing maintenance of various legacy applications and tools"
 
     - company: "MIT Lincoln Laboratory"
       location: "Lexington, MA"
