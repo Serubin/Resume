@@ -57,7 +57,7 @@ experience:
       position: "Cyber Security and Software Engineer"
       start: "May 2016"
       end: "Present"
-      desc: 
+      desc:
         - "Designing and implementing high impact applications for a large range of government sponsors including DOD and DOJ"
         - "Primary contributor to several high profile cyber threat analysis tool based on open source data models. Working primarily on front and mid end development"
         - "Developing robust investigation engines as a part of the GSA modernization effort within large scale agile teams"
@@ -68,7 +68,7 @@ experience:
       position: "Software Developer"
       start: "Sep 2014"
       end: "Jan 2017"
-      desc: 
+      desc:
         - "Modernized legacy applications and scripts in order to automate various tasks"
         - "Developed internal tools such as automated hiring tools and applications to prefilled Scantron sheets and handled the production deployments of these tools"
         - "Handled ongoing maintenance of various legacy applications and tools"
@@ -78,7 +78,7 @@ experience:
       position: "Software Engineer"
       start: "Feb 2014"
       end: "Aug 2015"
-      desc: 
+      desc:
         - "Developed and improved proprietary image detection algorithms and related code bases using Matlab and several C++ libraries"
         - "Optimized detection processing times down by 70% using parallel computing techniques and developed efficient SQL search queries"
         - "Created a front end web visualizer for processed detection using asynchronous web paradigms and Material UI"
@@ -105,7 +105,7 @@ projects:
 education:
     - title: "Rochester Institute of Technology"
       degree: "BA of Science, Concentration in Computer Science "
-      desc: 
+      desc:
         - "Computing Scholarship"
         - "Courses: Data Structures, Python, Java, C, Parallel and Distributed Systems, Web and Mobile, Assembly, Databases"
     - title: "Northeastern University"
@@ -114,7 +114,7 @@ education:
         - "Courses: Networking I & II, Databases, Web Design"
     - title: "Minuteman Tech"
       degree: "High School Diploma, Computer Science 2014"
-      desc: 
+      desc:
         - "Computer Science Vocational Certification"
 
 accomplishments:
