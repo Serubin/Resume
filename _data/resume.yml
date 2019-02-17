@@ -42,6 +42,7 @@ skills:
   - title: "Software"
     items:
       - "Nginx"
+      - "Ansible"
       - "Apache"
       - "SQL"
       - "MongoDB"
@@ -107,7 +108,7 @@ education:
       degree: "BA of Science, Concentration in Computer Science "
       desc:
         - "Computing Scholarship"
-        - "Courses: Data Structures, Python, Java, C, Parallel and Distributed Systems, Web and Mobile, Assembly, Databases, Web Security"
+        - "Courses: Data Structures, Python, Java, C, Parallel and Distributed Systems, Web and Mobile, Assembly, Databases, Web Security, Human Factors Engineering"
     - title: "Northeastern University"
       degree: "Computer Science Certificate Program 2014"
       desc:
