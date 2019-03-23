@@ -60,9 +60,9 @@ experience:
       start: "May 2016"
       end: "Present"
       desc:
-        - "Designing and implementing high impact applications for a large range of government sponsors including DOJ and DOD"
-        - "Primary contributor to several high profile cyber threat analysis tools. Developing full stack systems including complex deployment models and scalable web interfaces."
-        - "Developing robust investigation engines as a part of the GSA modernization effort within large scale agile teams"
+        - "Developed significant portions of a Digital Forensics and Incident Response framework. Integrated forensic tools and designed complex cluster systems using, Python, Ansible, and DFIR tools. Received multiple awards for efforts"
+        - "Primary contributor to a high profile cyber threat analysis tools. Developed full stack systems including complex deployment models and scalable web interfaces."
+        - "Developed robust secure storage engine for investigative tools within large scale agile teams as a part of a GSA modernization effort. Designed complex secure storage methods to be used with AWS and AWS GOVCloud."
         - "Received Federal Law Enforcement Award, Director's Award, and three other Awards for technical efforts"
 
     - company: "RIT Information Technology Services"
@@ -71,9 +71,8 @@ experience:
       start: "Sep 2014"
       end: "Jan 2017"
       desc:
-        - "Modernized legacy applications and scripts in order to automate various tasks"
-        - "Developed internal tools such as automated hiring tools and applications to prefilled Scantron sheets and handled the production deployments of these tools"
-        - "Handled ongoing maintenance of various legacy applications and tools"
+        - "Modernized multiple legacy PHP applications to increase maintainability and to automate additional tasks such as inventory management and automatic standard form filling."
+        - "Developed internal tools such as automated hiring applications and tools pre-filled Scantron sheets for exams. Handled ongoing maintenance and deployment of all developed applications and others."
 
     - company: "MIT Lincoln Laboratory"
       location: "Lexington, MA"
@@ -81,9 +80,9 @@ experience:
       start: "Feb 2014"
       end: "Aug 2015"
       desc:
-        - "Developed and improved proprietary image detection algorithms and related code bases using Matlab and several C++ libraries"
-        - "Optimized detection processing times down by 70% using parallel computing techniques and developed efficient SQL search queries"
-        - "Created a front end web visualizer for processed detection using asynchronous web paradigms and Material UI"
+        - "Developed and improved proprietary image detection algorithms and related code bases using Matlab and several C++ libraries for use with unmanned aircraft systems"
+        - "Optimized detection and processing times significantly using supercomputers/parallel computing techniques and distributed databases with extremely efficient queries"
+        - "Developed ground-truth verification systems for LINEAR near earth asteroid research project. Detected and verified more than 4 million extraterrestrial objects."
 
     - company: "Escapecraft"
       location: "Online"
@@ -91,18 +90,16 @@ experience:
       start: "Sep 2010"
       end: "Dec 2015"
       desc:
-        - "Maintained long term server functionality including regular updates and abnormal failure events"
-        - "Developed an in-depth administration plugin to \"kick\" and \"ban\" unruly users with an interactive web front-end"
+        - "Responsible for maintaining long term server functionality, including regular updates to the system and handling abnormal failure events as required."
+        - "Designed and Developed multiple tools for administering in-game users and Linux systems using tools such as Java and Bash"
 
 projects:
+    - title: "Cloud.Serubin.Net"
+      desc: "A complex distributed service network for personal use. Utilizes distributed computers and advanced networking  techniques to achieve secure distributed operation and high availability."
     - title: "PulseClient"
-      desc: "A progressive webapp for texting (SMS/MMS) from your computer using Vue.js and the PulseSMS API (<a href=\"https://s-r.io/pulse\">s-r.io/pulse</a>)"
+      desc: "A progressive webapp for texting (SMS/MMS) from your computer using Vue.js and the PulseSMS API (<a href=\"https://s-r.io/pulse\">s-r.io/pulse</a>)."
     - title: "Manglr"
-      desc: "A modern open source URL shortener designed as a flexible alternative to existing but antiquated technologies (<a href=\"https://s-r.io/manglr\">s-r.io/manglr</a>)"
-    - title: "Mindcloud"
-      desc: "An MVC website aimed at creating a project and solution based social network. Written in PHP and JavaScript using the jQuery and Foundation libraries (<a href=\"https://s-r.io/mindcld\">s-r.io/mindcld</a>)"
-    - title: "Serubin.net"
-      desc: "A personal portfolio written in HTML5, CSS3, and JavaScript (<a href=\"https://s-r.io/sernsrc\">s-r.io/sernsrc</a>)"
+      desc: "A modern open source URL shortener designed as a flexible alternative to existing but antiquated technologies using a microservice architecture (<a href=\"https://s-r.io/manglr\">s-r.io/manglr</a>)."
 
 education:
     - title: "Rochester Institute of Technology"
