@@ -1,5 +1,5 @@
 name: "Solomon Rubin"
-objective: "Pursuing technical and professional growth with real world experience, specifically in leadership roles and emerging software techniques."
+objective: "Pursuing technical and professional growth through hands-on learning with emerging technologies and leadership techniques."
 
 contact_list:
   - title: "serubin@serubin.net"
@@ -82,7 +82,7 @@ experience:
       desc:
         - "Developed and improved proprietary image detection algorithms and related code bases using Matlab and several C++ libraries for use with unmanned aircraft systems"
         - "Optimized detection and processing times significantly using supercomputers/parallel computing techniques and distributed databases with extremely efficient queries"
-        - "Developed ground-truth verification systems for LINEAR near earth asteroid research project. Detected and verified more than 4 million extraterrestrial objects."
+        - "Developed ground-truth verification systems for Lincoln Near Earth Asteroid Research project (LINEAR). Detected and verified more than 4 million extraterrestrial objects."
 
     - company: "Escapecraft"
       location: "Online"
@@ -119,5 +119,4 @@ education:
 accomplishments:
   - "Federal Law Enforcement Award, MITRE Directors Award"
   - "President of RIT Linux User Group and Free and Open Source at RIT"
-  - "OSHA certified (10 hours)"
   - "National Web Design Bronze Medalist (SkillsUSA)"
