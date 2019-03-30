@@ -97,7 +97,7 @@ projects:
     - title: "Cloud.Serubin.Net"
       desc: "A complex distributed service network for personal use. Utilizes distributed computers and advanced networking  techniques to achieve secure distributed operation and high availability."
     - title: "PulseClient"
-      desc: "A progressive webapp for texting (SMS/MMS) from your computer using Vue.js and the PulseSMS API (<a href=\"https://s-r.io/pulse\">s-r.io/pulse</a>)."
+      desc: "A progressive webapp for texting (SMS/MMS) from your computer using Vue.js. (<a href=\"https://s-r.io/pulse\">s-r.io/pulse</a>)."
     - title: "Manglr"
       desc: "A modern open source URL shortener designed as a flexible alternative to existing but antiquated technologies using a microservice architecture (<a href=\"https://s-r.io/manglr\">s-r.io/manglr</a>)."
 
@@ -105,7 +105,6 @@ education:
     - title: "Rochester Institute of Technology"
       degree: "BA of Science, Concentration in Computer Science "
       desc:
-        - "Computing Scholarship"
         - "Courses: Data Structures, Python, Java, C, Parallel and Distributed Systems, Web and Mobile, Assembly, Databases, Web Security, Human Factors Engineering"
     - title: "Northeastern University"
       degree: "Computer Science Certificate Program 2014"

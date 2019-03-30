@@ -3124,7 +3124,7 @@ h5 {
   margin-bottom: 15px;
 }
 .skills-padding {
-  margin-bottom: 20px;
+  margin-bottom: 9px;
 }
 .summary-container {
   padding-bottom: 15px;
@@ -3623,7 +3623,7 @@ ul {
 }
 .top-header {
   border: 10px solid transparent;
-  margin: 0 -35px 12px;
+  margin: 0 -35px 5px;
   padding: 0 10px;
 }
 @media only screen and (min-width: 980px) and (max-width: 1199px), only screen and (min-width: 1200px) {
