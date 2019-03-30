@@ -1,5 +1,5 @@
 name: "Solomon Rubin"
-objective: "Pursuing technical and professional growth through hands-on learning with emerging technologies and leadership techniques."
+objective: "A highly experienced Cyber Security and Software Engineer pursuing technical and professional growth through hands-on learning with emerging technologies and leadership techniques."
 
 contact_list:
   - title: "serubin@serubin.net"
@@ -55,24 +55,24 @@ skills:
 
 experience:
     - company: "MITRE Corporation"
-      location: "McLean, Va"
+      location: "McLean, VA"
       position: "Cyber Security and Software Engineer"
       start: "May 2016"
       end: "Present"
       desc:
-        - "Developed significant portions of a Digital Forensics and Incident Response framework. Integrated forensic tools and designed complex cluster systems using, Python, Ansible, and DFIR tools. Received multiple awards for efforts"
-        - "Primary contributor to a high profile cyber threat analysis tools. Developed full stack systems including complex deployment models and scalable web interfaces."
+        - "Developed significant portions of a Digital Forensics and Incident Response framework. Integrated forensic tools and designed complex cluster systems using, Python, Ansible, and DFIR tools. Received multiple awards for technical efforts"
+        - "Primary contributor to a high-profile cyber threat analysis tools. Developed full stack systems including complex deployment models and scalable web interfaces."
         - "Developed robust secure storage engine for investigative tools within large scale agile teams as a part of a GSA modernization effort. Designed complex secure storage methods to be used with AWS and AWS GOVCloud."
-        - "Received Federal Law Enforcement Award, Director's Award, and three other Awards for technical efforts"
+        - "Received Federal Law Enforcement Award, Director's Award, and four other Awards for technical efforts"
 
     - company: "RIT Information Technology Services"
       location: "Rochester, NY"
       position: "Software Developer"
-      start: "Sep 2014"
+      start: "Sept 2014"
       end: "Jan 2017"
       desc:
         - "Modernized multiple legacy PHP applications to increase maintainability and to automate additional tasks such as inventory management and automatic standard form filling."
-        - "Developed internal tools such as automated hiring applications and tools pre-filled Scantron sheets for exams. Handled ongoing maintenance and deployment of all developed applications and others."
+        - "Developed internal tools such as automated hiring applications and pre-filled Scantron sheets for exams. Handled ongoing maintenance and deployment of all developed applications and several other tools."
 
     - company: "MIT Lincoln Laboratory"
       location: "Lexington, MA"
@@ -80,38 +80,38 @@ experience:
       start: "Feb 2014"
       end: "Aug 2015"
       desc:
-        - "Developed and improved proprietary image detection algorithms and related code bases using Matlab and several C++ libraries for use with unmanned aircraft systems"
-        - "Optimized detection and processing times significantly using supercomputers/parallel computing techniques and distributed databases with extremely efficient queries"
+        - "Developed and improved proprietary image detection algorithms and related code bases using Matlab and several C++ libraries for use with unmanned aircraft systems."
+        - "Optimized detection and processing times using supercomputers/parallel computing techniques and distributed databases with efficient queries."
         - "Developed ground-truth verification systems for Lincoln Near Earth Asteroid Research project (LINEAR). Detected and verified more than 4 million extraterrestrial objects."
 
     - company: "Escapecraft"
       location: "Online"
       position: "System Administrator"
-      start: "Sep 2010"
+      start: "Sept 2010"
       end: "Dec 2015"
       desc:
         - "Responsible for maintaining long term server functionality, including regular updates to the system and handling abnormal failure events as required."
-        - "Designed and Developed multiple tools for administering in-game users and Linux systems using tools such as Java and Bash"
+        - "Designed and developed multiple tools for administering in-game users and Linux systems using tools such as Java and Bash."
 
 projects:
     - title: "Cloud.Serubin.Net"
       desc: "A complex distributed service network for personal use. Utilizes distributed computers and advanced networking  techniques to achieve secure distributed operation and high availability."
     - title: "PulseClient"
-      desc: "A progressive webapp for texting (SMS/MMS) from your computer using Vue.js. (<a href=\"https://s-r.io/pulse\">s-r.io/pulse</a>)."
+      desc: "A progressive webapp for texting (SMS/MMS) from your computer using Vue.js (<a href=\"https://s-r.io/pulse\">s-r.io/pulse</a>)."
     - title: "Manglr"
       desc: "A modern open source URL shortener designed as a flexible alternative to existing but antiquated technologies using a microservice architecture (<a href=\"https://s-r.io/manglr\">s-r.io/manglr</a>)."
 
 education:
     - title: "Rochester Institute of Technology"
-      degree: "BA of Science, Concentration in Computer Science "
+      degree: "BS, Concentration in Computer Science & Cyber Security"
       desc:
         - "Courses: Data Structures, Python, Java, C, Parallel and Distributed Systems, Web and Mobile, Assembly, Databases, Web Security, Human Factors Engineering"
     - title: "Northeastern University"
-      degree: "Computer Science Certificate Program 2014"
+      degree: "Computer Science Certificate Program"
       desc:
         - "Courses: Networking I & II, Databases, Web Design"
     - title: "Minuteman Tech"
-      degree: "High School Diploma, Computer Science 2014"
+      degree: "High School Diploma, Computer Science"
       desc:
         - "Computer Science Vocational Certification"
 
