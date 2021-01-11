@@ -71,7 +71,7 @@ experience:
       start: "May 2016"
       end: "September 2019"
       desc:
-        - "Developed significant portions of a Digital Forensics and Incident Response framework. Integrated forensic tools and designed complex cluster systems using, Python, Ansible, and DFIR tools. Received multiple awards for technical efforts."
+        - "Led sub-task development on significant portions of a Digital Forensics and Incident Response framework. Integrated forensic tools and designed complex cluster systems."
         - "Primary contributor to a high-profile cyber threat analysis tools. Developed full stack systems including complex deployment models and scalable web interfaces."
         - "Developed robust secure storage engine for investigative tools within large scale agile teams as a part of a GSA modernization effort. Designed complex secure storage methods to be used with AWS and AWS GOVCloud."
         - "Received Federal Law Enforcement Award, Director's Award, and four other Awards for technical efforts."
