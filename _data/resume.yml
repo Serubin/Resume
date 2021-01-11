@@ -54,11 +54,22 @@ skills:
       - "Android"
 
 experience:
+    - company: "FOSSA"
+      location: "San Francisco, CA"
+      position: "Software Engineer"
+      start: "September 2019"
+      end: "Present"
+      end: "Present"
+      desc:
+        - "A fast growing startup developing software analysis tools to help modern teams manage their open source dependencies."
+        - "Leading signficant efforts to update and maintain industry leading vulnerability database."
+        - "Managing development of core and emerging security products."
+
     - company: "MITRE Corporation"
       location: "McLean, VA"
       position: "Cyber Security and Software Engineer"
       start: "May 2016"
-      end: "Present"
+      end: "September 2019"
       desc:
         - "Developed significant portions of a Digital Forensics and Incident Response framework. Integrated forensic tools and designed complex cluster systems using, Python, Ansible, and DFIR tools. Received multiple awards for technical efforts."
         - "Primary contributor to a high-profile cyber threat analysis tools. Developed full stack systems including complex deployment models and scalable web interfaces."
