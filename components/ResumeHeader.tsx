@@ -33,11 +33,11 @@ export default function ResumeHeader({ name, contacts }: HeaderProps) {
                         <div className="row">
                             <div className="col-md-12">
                                 <div className="ng-isolate-scope inline-block" style={{fontSize: '14px'}}>
-                                  {contacts.map((link) => (
+                                  {contacts.map((link: Contact, idx: number) => (
                                     <>
                                       <div className="cl-outer-row ng-isolate-scope cr-ct-upper inline-left">
                                           <div className="cl-content-wrapper">
-                                              <a href={link.href} target="blank" className="contact-icon-link hover-enabled inline-left">
+                                              <a href={link.link} target="blank" className="contact-icon-link hover-enabled inline-left">
                                                 <i className={`fa ${link.icon} contact-icon`}></i> <span className="font-primary icon-link-text">{link.title}</span>
                                               </a>
                                           </div>
