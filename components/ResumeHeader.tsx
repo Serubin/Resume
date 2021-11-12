@@ -1,3 +1,4 @@
+import React from 'react';
 import type { NextPage, GetStaticProps } from 'next'
 import type { Name, Contact } from '../lib/types';
 
@@ -34,7 +35,7 @@ export default function ResumeHeader({ name, contacts }: HeaderProps) {
                             <div className="col-md-12">
                                 <div className="ng-isolate-scope inline-block" style={{fontSize: '14px'}}>
                                   {contacts.map((link: Contact, idx: number) => (
-                                    <>
+                                    <React.Fragment key={idx}>
                                       <div className="cl-outer-row ng-isolate-scope cr-ct-upper inline-left">
                                           <div className="cl-content-wrapper">
                                               <a href={link.link} target="blank" className="contact-icon-link hover-enabled inline-left">
@@ -43,7 +44,7 @@ export default function ResumeHeader({ name, contacts }: HeaderProps) {
                                           </div>
                                       </div>
                                       <div className="inline-left"></div>
-                                    </>
+                                    </React.Fragment>
                                   ))}
                                 </div>
                             </div>
