@@ -2,9 +2,8 @@ import fs from 'fs';
 import path from 'path';
 import yaml from 'js-yaml';
 
-const contentDirectory = path.join(process.cwd(), 'data');
-
-export default function getStaticContent(sections: string[]) {
+export default function getStaticContent(sections: string[], dir: string = 'data') {
+  const contentDirectory = path.join(process.cwd(), dir);
   const sectionNames = sections.map(section => section.toLowerCase());
 
   const fileNames = fs.readdirSync(contentDirectory);
