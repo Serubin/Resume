@@ -12,8 +12,8 @@ export default function getStaticContent(sections: string[], dir: string = 'data
     .filter((fileName: string) => sectionNames.includes(fileName.toLowerCase().replace('.yml', '')))
     .map((fileName: string) => {
       // Read in the yaml
-      const fullPath = path.join(contentDirectory, fileName)
-      const contents = fs.readFileSync(fullPath, 'utf8')
+      const fullPath = path.join(contentDirectory, fileName);
+      const contents = fs.readFileSync(fullPath, 'utf8');
 
       return yaml.load(contents);
   });

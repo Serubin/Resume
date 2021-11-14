@@ -1,5 +1,5 @@
 import React from 'react';
-import type { NextPage, GetStaticProps } from 'next'
+import type { NextPage, GetStaticProps } from 'next';
 import type { Name, Contact } from '../lib/types';
 
 type HeaderProps = {

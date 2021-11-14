@@ -1,4 +1,4 @@
-import type { NextPage } from 'next'
+import type { NextPage } from 'next';
 import getStaticContent from '../lib/contentData';
 import Resume from '../components/resume';
 import type { Resume as ResumeType } from '../lib/types';
@@ -10,8 +10,8 @@ type Props = {
 const Index: NextPage<Props> = ({ resume }) => {
   return (
     <Resume resume={resume}/>
-  )
-}
+  );
+};
 
 export const getStaticProps = async () => {
   const data: any = getStaticContent(['resume']);
@@ -21,6 +21,6 @@ export const getStaticProps = async () => {
       ...data,
     }
   };
-}
+};
 
 export default Index;

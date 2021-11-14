@@ -1,4 +1,4 @@
-import Head from 'next/head'
+import Head from 'next/head';
 
 import { Resume as ResumeType } from '../lib/types';
 import PageWrapper from './PageWrapper';
