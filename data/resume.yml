@@ -57,13 +57,13 @@ resume:
   experience:
       - company: "FOSSA"
         location: "San Francisco, CA"
-        position: "Software Engineer"
+        position: "Software Engineering Team Lead, Security"
         start: "September 2019"
         end: "Present"
         desc:
-          - "A fast growing startup developing software analysis tools to help modern teams manage their open source dependencies."
-          - "Leading signficant efforts to update and maintain industry leading vulnerability database."
-          - "Managing development of core and emerging security products."
+          - "First security hire developing scalable security in open source management at FOSSA."
+          - "Building an industry-leading vulnerability database from the ground up while supporting vulnerability discovery and remediation at scale within Fortune 50 companies."
+          - "Bootstrapping a new team of software engineers and security professionals into an effective engineering unit, delivering leading security products and solutions."
 
       - company: "MITRE Corporation"
         location: "McLean, VA"
