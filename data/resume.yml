@@ -106,9 +106,13 @@ resume:
       - title: "Rochester Institute of Technology"
         degree: "BS, Concentration in Computer Science & Cyber Security"
         desc:
-          - "Courses: Data Structures, Python, Java, C, Parallel and Distributed Systems, Web and Mobile, Assembly, Databases, Web Security, Human Factors Engineering"
+          - "Courses: Data Structures, Parallel and Distributed Systems, Web and Mobile, Operating Systems, Databases, Web Security, Human Factors Engineering"
+      - title: "Cornell"
+        degree: "Project Management Certificate"
+        desc:
+          - "Project Management Certificate Program, with PMP Certification component"
       - title: "Northeastern University"
-        degree: "Computer Science Certificate Program"
+        degree: "Computer Science Certificate"
         desc:
           - "Courses: Networking I & II, Databases, Web Design"
       - title: "Minuteman Tech"
