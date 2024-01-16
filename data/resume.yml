@@ -53,9 +53,19 @@ resume:
       - company: "FOSSA"
         location: "San Francisco, CA"
         positions:
-          - title: "Engineering Manager, Security"
+          - title: "Senior Software Engineer"
+            start: "February 2023"
+            end: "January 2024"
+            desc:
+              - "Developing customer-focused features from initial ideation through execution and delivery."
+              - "Focusing on creating excellent user experiences with intuitive user interfaces and APIs."
+              - "Working cross-functionally to determine requirements, considering customer and business needs."
+          - title: "Engineering Manager"
+            start: "April 2022"
+            end: "February 2023"
+          - title: "Software Engineering Team Lead"
             start: "September 2019"
-            end: "Present"
+            end: "April 2022"
             desc:
               - "First security hire developing scalable security in open source management at FOSSA."
               - "Building an industry-leading vulnerability database from the ground up while supporting vulnerability discovery and remediation at scale within Fortune 50 companies."

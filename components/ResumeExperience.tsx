@@ -55,7 +55,7 @@ export default function ResumeSummary({ experience }: Props) {
                   </table>
                   <div className="font-secondary content-paragraph description ng-pristine ng-untouched ng-valid ng-isolate-scope" style={{ fontSize: '12px' }}>
                     <ul>
-                      {position.desc.map((line: string, idx: number) => <li key={idx}> {line} </li>)}
+                      {position.desc?.map((line: string, idx: number) => <li key={idx}> {line} </li>)}
                     </ul>
                   </div>
                 </>
