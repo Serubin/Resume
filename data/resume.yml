@@ -1,6 +1,6 @@
 resume:
   name: "Solomon Rubin"
-  objective: "An experienced software engineering leader, focusing on security use cases in the enterprise. Striving for continuous learning and growth through technical and leadership experiences."
+  objective: "An experienced software engineering leader focusing on building strong teams that create excellent user and business outcomes. Striving for continuous learning and growth through technical and leadership experiences."
 
   contacts:
     - title: "serubin@serubin.net"
@@ -52,6 +52,7 @@ resume:
   experience:
       - company: "FOSSA"
         location: "San Francisco, CA"
+        duration: "4.5 years"
         positions:
           - title: "Senior Software Engineer"
             start: "February 2023"
@@ -70,9 +71,9 @@ resume:
               - "First security hire developing scalable security in open source management at FOSSA."
               - "Building an industry-leading vulnerability database from the ground up while supporting vulnerability discovery and remediation at scale within Fortune 50 companies."
               - "Bootstrapping a new team of software engineers and security professionals into an effective engineering unit, delivering leading security products and solutions."
-
       - company: "MITRE Corporation"
         location: "McLean, VA"
+        duration: "4 years"
         positions:
         - title: "Cyber Security and Software Engineer"
           start: "May 2016"
@@ -80,11 +81,12 @@ resume:
           desc:
             - "Led sub-task development on significant portions of a Digital Forensics and Incident Response framework. Integrated forensic tools and designed complex cluster systems."
             - "Primary contributor to a high-profile cyber threat analysis tools. Developed full stack systems including complex deployment models and scalable web interfaces."
-            - "Developed robust secure storage engine for investigative tools within large scale agile teams as a part of a GSA modernization effort. Designed complex secure storage methods to be used with AWS and AWS GOVCloud."
+            - "Developed robust secure storage engine for investigative tools within large scale agile teams as a part of a GSA modernization effort using AWS and AWS GOVCloud."
             - "Received Federal Law Enforcement Award, Director's Award, and four other Awards for technical efforts."
 
       - company: "RIT Information Technology Services"
         location: "Rochester, NY"
+        duration: "2 years"
         positions:
         - title: "Software Developer"
           start: "Sept 2014"
@@ -95,6 +97,7 @@ resume:
 
       - company: "MIT Lincoln Laboratory"
         location: "Lexington, MA"
+        duration: "2 years"
         positions:
           - title: "Software Engineer"
             start: "Feb 2014"
@@ -105,12 +108,8 @@ resume:
               - "Developed ground-truth verification systems for Lincoln Near Earth Asteroid Research project (LINEAR). Detected and verified more than 4 million extraterrestrial objects."
 
   projects:
-      - title: "Cloud.Serubin.Net"
-        desc: "A complex distributed service network for personal use. Utilizes distributed computers and advanced networking  techniques to achieve secure distributed operation and high availability."
       - title: "PulseClient"
-        desc: "A progressive webapp for texting (SMS/MMS) from your computer using Vue.js (<a href=\"https://s-r.io/pulse\">s-r.io/pulse</a>)."
-      - title: "Manglr"
-        desc: "A modern open source URL shortener designed as a flexible alternative to existing but antiquated technologies using a microservice architecture (<a href=\"https://s-r.io/manglr\">s-r.io/manglr</a>)."
+        desc: "A progressive webapp for texting (SMS/MMS) from your computer using Vue.js, serving more than 1 million users (<a href=\"https://s-r.io/pulse\">s-r.io/pulse</a>)."
 
   education:
       - title: "Rochester Institute of Technology"
