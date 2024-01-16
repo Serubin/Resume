@@ -1,3 +1,4 @@
+import { Fragment } from 'react';
 import { Experience, Position } from '../lib/types';
 
 type Props = {
@@ -35,8 +36,8 @@ export default function ResumeSummary({ experience }: Props) {
                   </tr>
                 </tbody>
               </table>
-              {job.positions.map((position: Position) =>
-                <>
+              {job.positions.map((position: Position, idp: number) =>
+                <Fragment key={idp}>
                   <table className="cr-ordering-table crd-row">
                     <tbody>
                       <tr>
@@ -58,7 +59,7 @@ export default function ResumeSummary({ experience }: Props) {
                       {position.desc?.map((line: string, idx: number) => <li key={idx}> {line} </li>)}
                     </ul>
                   </div>
-                </>
+                </Fragment>
               )}
             </div>
           )}
