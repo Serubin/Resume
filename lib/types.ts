@@ -40,7 +40,11 @@ export type Accomplishment = string;
 export type Experience = {
   company: string;
   location: string;
-  position: string;
+  positions: Position[];
+}
+
+export type Position = {
+  title: string;
   start: string;
   end: string;
   desc: string[];

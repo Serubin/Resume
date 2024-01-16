@@ -1,4 +1,4 @@
-import { Experience } from '../lib/types';
+import { Experience, Position } from '../lib/types';
 
 type Props = {
   experience: Experience[];
@@ -35,25 +35,31 @@ export default function ResumeSummary({ experience }: Props) {
                   </tr>
                 </tbody>
               </table>
-              <table className="cr-ordering-table crd-row">
-                <tbody>
-                  <tr>
-                    <td className="crd-col">
-                      <span className="employer-title font-primary inline-block fg-primary-dark" style={{fontSize: '15px'}}>{ job.position }</span>
-                    </td>
-                    <td className="crd-col align-right right-col">
-                      <div className="inline-block item-date">
-                        <span className="date font-primary cr-date" style={{fontSize: '15px'}}><span className="">{ job.start }</span> <span className="">to</span> <span className="">{ job.end }</span></span>
-                      </div>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-              <div className="font-secondary content-paragraph description ng-pristine ng-untouched ng-valid ng-isolate-scope" style={{fontSize: '12px'}}>
-                <ul>
-                  {job.desc.map((line: string, idx: number) => <li key={idx}> { line } </li>)}
-                </ul>
-              </div>
+              {job.positions.map((position: Position) =>
+                <>
+                  <table className="cr-ordering-table crd-row">
+                    <tbody>
+                      <tr>
+                        <td className="crd-col">
+                          <span className="employer-title font-primary inline-block fg-primary-dark" style={{ fontSize: '15px' }}>{position.title}</span>
+                        </td>
+                        <td className="crd-col align-right right-col">
+                          <div className="inline-block item-date">
+                            <span className="date font-primary cr-date" style={{ fontSize: '15px' }}>
+                              <span className="">{position.start}</span> <span className="">to</span> <span className="">{position.end}</span>
+                            </span>
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <div className="font-secondary content-paragraph description ng-pristine ng-untouched ng-valid ng-isolate-scope" style={{ fontSize: '12px' }}>
+                    <ul>
+                      {position.desc.map((line: string, idx: number) => <li key={idx}> {line} </li>)}
+                    </ul>
+                  </div>
+                </>
+              )}
             </div>
           )}
         </div>
