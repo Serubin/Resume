@@ -68,7 +68,7 @@ resume:
             start: "September 2019"
             end: "April 2022"
             desc:
-              - "First security hire developing scalable security in open source management at FOSSA."
+              - "First security hire developing scalable <a href=\"https://s-r.io/fossa-sec\">security in open source management</a> at FOSSA."
               - "Building an industry-leading vulnerability database from the ground up while supporting vulnerability discovery and remediation at scale within Fortune 50 companies."
               - "Bootstrapping a new team of software engineers and security professionals into an effective engineering unit, delivering leading security products and solutions."
       - company: "MITRE Corporation"
@@ -81,7 +81,6 @@ resume:
           desc:
             - "Led sub-task development on significant portions of a Digital Forensics and Incident Response framework. Integrated forensic tools and designed complex cluster systems."
             - "Primary contributor to a high-profile cyber threat analysis tools. Developed full stack systems including complex deployment models and scalable web interfaces."
-            - "Developed robust secure storage engine for investigative tools within large scale agile teams as a part of a GSA modernization effort using AWS and AWS GOVCloud."
             - "Received Federal Law Enforcement Award, Director's Award, and four other Awards for technical efforts."
 
       - company: "RIT Information Technology Services"
@@ -105,7 +104,7 @@ resume:
             desc:
               - "Developed and improved proprietary image detection algorithms and related code bases using Matlab and several C++ libraries for use with unmanned aircraft systems."
               - "Optimized detection and processing times using supercomputers/parallel computing techniques and distributed databases with efficient queries."
-              - "Developed ground-truth verification systems for Lincoln Near Earth Asteroid Research project (LINEAR). Detected and verified more than 4 million extraterrestrial objects."
+              - "Developed ground-truth verification systems for Lincoln Near Earth Asteroid Research project (<a href=\"https://s-r.io/linear\">LINEAR</a>). Detected and verified more than 4 million extraterrestrial objects."
 
   projects:
       - title: "PulseClient"
