@@ -9,16 +9,17 @@
   },
   "dependencies": {
     "js-yaml": "^4.1.0",
-    "next": "11.1.2",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
+    "next": "12",
+    "react": "17",
+    "react-dom": "17",
     "sharp": "^0.32.6"
   },
   "devDependencies": {
     "@types/js-yaml": "^4.0.3",
+    "@types/node": "20.11.4",
     "@types/react": "17.0.20",
     "eslint": "7.32.0",
-    "eslint-config-next": "11.1.2",
+    "eslint-config-next": "12",
     "sass": "^1.41.1",
     "typescript": "4.4.3"
   }
