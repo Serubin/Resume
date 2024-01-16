@@ -18,15 +18,6 @@ export default function ResumeAccomplishments({ accomplishments }: Props) {
         </div>
         <div className="item-container row header-padding">
           <div className="col-md-12">
-            <div className="content-group">
-              <table className="cr-ordering-table crd-row">
-                <tbody>
-                  <tr>
-                    <td className="crd-col">{/* Item removed */}</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
             {accomplishments.map((accomplishment: Accomplishment, idx: number) =>
               <div className="content-group" key={idx}>
                 <table className="cr-ordering-table crd-row">
