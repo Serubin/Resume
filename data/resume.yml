@@ -112,7 +112,7 @@ resume:
     - title: "PulseClient"
       desc: "A progressive webapp for texting (SMS/MMS) from your computer using Vue.js, serving more than 1 million users. (<a href=\"https://s-r.io/pulse\" target=\"_blank\">s-r.io/pulse</a>)."
     - title: "Kubernetes Cluster"
-      desc: "Managing at-home services cluster using Kubernetes, Helm, and Flux"
+      desc: "Managing at-home services cluster using Kubernetes, Helm, and FluxCD. (<a href=\"https://s-r.io/infra\" target=\"_blank\">s-r.io/infra</a>)"
 
   education:
     - title: "Rochester Institute of Technology"
