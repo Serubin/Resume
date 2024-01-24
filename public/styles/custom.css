@@ -294,3 +294,7 @@ a.link:hover span {
     text-decoration: underline;
     color: #26447f;
 }
+
+.section-header .medium {
+  font-size: 19px;
+}

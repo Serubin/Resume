@@ -10,7 +10,7 @@ export default function ResumeAccomplishments({ accomplishments }: Props) {
       <div className="col-md-12">
         <div className="row section-header header-underline">
           <div className="font-primary col-md-12 fg-black uppercase medium">
-            <span style={{letterSpacing: '0px'}} className="bold">Accomplishments & Certifications</span>
+            <span style={{letterSpacing: '0px'}} className="bold">Accomplishments</span>
           </div>
           <div className="col-md-12">
             <div className="section-header-underline bg-primary-dark underline-short underline-thin">{/* Underline */}</div>
