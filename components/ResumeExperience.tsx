@@ -26,11 +26,11 @@ export default function ResumeSummary({ experience }: Props) {
                 <tbody>
                   <tr>
                     <td className="crd-col">
-                      <span className="font-primary inline-block item-name" style={{fontSize: '17px'}}>{ job.company }</span>
+                      <span className="font-primary inline-block item-name content-title">{ job.company }</span>
                     </td>
                     <td className="crd-col align-right right-col">
                       <div className="inline-block employer-location">
-                        <span className="font-primary" style={{fontSize: '15px'}}>{ job.location }</span>
+                        <span className="font-primary content-secondary-title">{ job.location }</span>
                       </div>
                     </td>
                   </tr>
@@ -42,19 +42,19 @@ export default function ResumeSummary({ experience }: Props) {
                     <tbody>
                       <tr>
                         <td className="crd-col">
-                          <span className="employer-title font-primary inline-block fg-primary-dark" style={{ fontSize: '15px' }}>{position.title}</span>
+                          <span className="employer-title font-primary inline-block fg-primary-dark content-secondary-title">{position.title}</span>
                         </td>
                         <td className="crd-col align-right right-col">
                           <div className="inline-block item-date">
-                            <span className="date font-primary cr-date" style={{ fontSize: '15px' }}>
-                              <span className="">{position.start}</span> <span className="">to</span> <span className="">{position.end}</span>
+                            <span className="date font-primary cr-date content-secondary-title">
+                              <span>{position.start}</span> <span>to</span> <span>{position.end}</span>
                             </span>
                           </div>
                         </td>
                       </tr>
                     </tbody>
                   </table>
-                  <div className="font-secondary content-paragraph description ng-pristine ng-untouched ng-valid ng-isolate-scope" style={{ fontSize: '12px' }}>
+                  <div className="font-secondary content-paragraph description content-paragraph">
                     <ul>
                       {position.desc?.map((line: string, idx: number) => <li key={idx} dangerouslySetInnerHTML={{ __html: line }} />)}
                     </ul>

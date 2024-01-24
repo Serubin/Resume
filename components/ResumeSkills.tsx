@@ -19,7 +19,7 @@ export default function ResumeSkills({ skills }: Props) {
         <div className="skills-padding">
           {skills.map((skill: Skill, idx: number) =>
             <div className="skills-container" key={idx}>
-              <span className="font-primary sg-name uppercase bold" style={{fontSize: '12px'}}>{ skill.title }: </span> <span className="skills-list font-secondary" style={{fontSize: '12px'}}>{ skill.items.join(', ') }</span>
+              <span className="font-primary sg-name uppercase bold content-paragraph">{ skill.title }: </span> <span className="skills-list font-secondary content-paragraph">{ skill.items.join(', ') }</span>
             </div>
           )}
         </div>

@@ -24,12 +24,12 @@ export default function ResumeProjects({ projects }: Props) {
                   <tbody>
                     <tr>
                       <td className="crd-col">
-                        <span className="font-primary content-title" style={{fontSize: '15px'}}>{ project.title }</span>
+                        <span className="font-primary content-title content-secondary-title">{ project.title }</span>
                       </td>
                     </tr>
                   </tbody>
                 </table>
-                <div className="font-secondary content-paragraph description ng-isolate-scope ng-valid" style={{fontSize: '12px'}}>
+                <div className="font-secondary content-paragraph description content-paragraph">
                   <p dangerouslySetInnerHTML={{ __html: project.desc }} />
                 </div>
               </div>

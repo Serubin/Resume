@@ -21,7 +21,7 @@ export default function ResumeSummary({ objective }: Props) {
             <div className="">
               <div className="">
                 <div className="content-group">
-                  <div className="font-secondary content-paragraph ng-pristine ng-untouched ng-valid" style={{fontSize: '12px'}}>
+                  <div className="font-secondary content-paragraph content-paragraph">
                     <p>
                       { objective }
                     </p>

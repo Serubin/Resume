@@ -20,13 +20,13 @@ export default function ResumeProjects({ education }: Props) {
           <div className="col-md-12">
             {education.map((school: School, idx: number) =>
               <div className="content-group" key={idx}>
-                <div className="font-primary content-title" style={{fontSize: '17px'}}>
+                <div className="font-primary content-title">
                   {school.title}
                 </div>
-                <div className="font-primary fg-primary-dark" style={{fontSize: '15px'}}>
+                <div className="font-primary fg-primary-dark content-secondary-title">
                   {school.degree }
                 </div>
-                <div className="font-secondary" style={{fontSize: '12px'}} dangerouslySetInnerHTML={{ __html: school.desc.join('<br />') }} />
+                <div className="font-secondary content-paragraph" dangerouslySetInnerHTML={{ __html: school.desc.join('<br />') }} />
               </div>
             )}
           </div>

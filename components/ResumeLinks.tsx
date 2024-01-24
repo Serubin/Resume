@@ -24,7 +24,7 @@ export default function ResumeLink({ links }: Props) {
                   <tbody>
                     <tr>
                       <td className="crd-col">
-                        <a href={link.link} target="_blank" rel="noopener noreferrer" className="link"><span className="font-primary inline-block item-name" style={{fontSize: '15px'}}>{ link.title }</span></a>
+                        <a href={link.link} target="_blank" rel="noopener noreferrer" className="link"><span className="font-primary inline-block item-name content-secondary-title">{ link.title }</span></a>
                       </td>
                     </tr>
                   </tbody>

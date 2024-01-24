@@ -298,3 +298,15 @@ a.link:hover span {
 .section-header .medium {
   font-size: 19px;
 }
+
+.content-paragraph {
+  font-size: 12px;
+}
+
+.content-title {
+  font-size: 17px;
+}
+
+.content-secondary-title {
+  font-size: 15px;
+}

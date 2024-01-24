@@ -24,7 +24,7 @@ export default function ResumeAccomplishments({ accomplishments }: Props) {
                   <tbody>
                     <tr>
                       <td className="crd-col">
-                        <span className="font-primary inline-block item-name" style={{fontSize: '15px'}}>{accomplishment}</span>
+                        <span className="font-primary inline-block item-name content-secondary-title">{accomplishment}</span>
                       </td>
                     </tr>
                   </tbody>
