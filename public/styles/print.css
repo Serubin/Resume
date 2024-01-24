@@ -396,42 +396,16 @@
   body #page-wrapper {
     margin: 0 !important;
   }
-  html.a4,
-  body.a4 {
-    height: 1168px !important;
-    width: 827px !important;
-  }
   @page {
     size: auto;
     margin: 0mm 0mm 0mm 0mm;
     padding: 0mm 0mm 0mm 0mm;
   }
-  .document-container,
-  #document-ctrl {
+  .document-container {
     height: 1100px !important;
     margin: 0 !important;
     overflow: hidden;
     width: 850px !important;
-  }
-  .document-container.a4,
-  #document-ctrl.a4 {
-    height: 1168px !important;
-    width: 827px !important;
-  }
-  #export-container {
-    display: block;
-  }
-  #export-container .document-container {
-    display: block;
-    margin-bottom: 0 !important;
-    margin-top: 0 !important;
-    padding-bottom: 0 !important;
-  }
-  .main-column {
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
-    margin-bottom: 0 !important;
-    margin-top: 0 !important;
   }
   .pages {
     margin-top: -50px !important;
@@ -443,34 +417,7 @@
     margin-left: -35px;
     position: static;
   }
-  .a4 .page {
-    left: 35px;
-  }
-  .page.page-2 {
-    top: 1100px !important;
-  }
-  .a4 .page.page-2 {
-    top: 1168px !important;
-  }
   a[href]:after {
     content: "";
-  }
-  .btn-export-back {
-    display: none !important;
-  }
-  [ng-controller="CustomizerCtrl"] {
-    display: none;
-  }
-  .main-column.edit-page.off-canvas-left {
-    height: 1100px !important;
-  }
-  .a4 .main-column.edit-page.off-canvas-left {
-    height: 1168px !important;
-  }
-  #help-ctrl,
-  .resume-selector,
-  #theme-selector,
-  .navbar {
-    display: none !important;
   }
 }
