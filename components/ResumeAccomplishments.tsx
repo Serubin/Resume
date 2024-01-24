@@ -20,7 +20,7 @@ export default function ResumeAccomplishments({ accomplishments }: Props) {
           <div className="col-md-12">
             {accomplishments.map((accomplishment: Accomplishment, idx: number) =>
               <div className="content-group" key={idx}>
-                <table className="cr-ordering-table crd-row">
+                <table className="cr-ordering-table">
                   <tbody>
                     <tr>
                       <td className="crd-col">

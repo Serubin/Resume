@@ -22,7 +22,7 @@ export default function ResumeSummary({ experience }: Props) {
           { /* Job Experience */ }
           {experience.map((job: Experience, idx: number) =>
             <div className="content-group" key={idx}>
-              <table className="cr-ordering-table crd-row">
+              <table className="cr-ordering-table">
                 <tbody>
                   <tr>
                     <td className="crd-col">
@@ -38,7 +38,7 @@ export default function ResumeSummary({ experience }: Props) {
               </table>
               {job.positions.map((position: Position, idp: number) =>
                 <Fragment key={idp}>
-                  <table className="cr-ordering-table crd-row">
+                  <table className="cr-ordering-table">
                     <tbody>
                       <tr>
                         <td className="crd-col">

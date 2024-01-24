@@ -29,14 +29,14 @@ export default function ResumeHeader({ name, contacts }: HeaderProps) {
 
         <div className="section-2 col-md-12">
             <div className="row">
-                <div className="col-md-12 fg-black hv-primary align-center cr-c-horizontal">
+                <div className="col-md-12 fg-black hv-primary align-center">
                     <div className="contact-container">
                         <div className="row">
                             <div className="col-md-12">
                                 <div className="inline-block content-secondary-title">
                                   {contacts.map((link: Contact, idx: number) => (
                                     <React.Fragment key={idx}>
-                                      <div className="cl-outer-row ng-isolate-scope cr-ct-upper inline-left">
+                                      <div className="cl-outer-row inline-left">
                                           <div className="cl-content-wrapper">
                                               <a href={link.link} target="blank" className="contact-icon-link hover-enabled inline-left">
                                                 <i className={`fa ${link.icon} contact-icon`}></i> <span className="font-primary icon-link-text">{link.title}</span>

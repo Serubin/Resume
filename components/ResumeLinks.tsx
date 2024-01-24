@@ -20,7 +20,7 @@ export default function ResumeLink({ links }: Props) {
           <div className="col-md-12">
             {links.map((link: Link, idx: number) =>
               <div className="content-group" key={idx}>
-                <table className="cr-ordering-table crd-row">
+                <table className="cr-ordering-table">
                   <tbody>
                     <tr>
                       <td className="crd-col">
