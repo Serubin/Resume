@@ -69,7 +69,7 @@ resume:
           start: "September 2019"
           end: "April 2022"
           desc:
-            - "Bootstrapped a team to build a new security product from the ground up, developing a product that accounted for $6 million+ in ARR. (<a href=\"https://s-r.io/fossa\">s-r.io/fossa</a>)"
+            - "Bootstrapped a team to build a new security product from the ground up, developing a product that accounted for $6 million+ in ARR. (<a href=\"https://s-r.io/fossa\" target=\"_blank\">s-r.io/fossa</a>)"
             - "Developed an industry-leading vulnerability database from the ground up while supporting vulnerability discovery and remediation at scale within Fortune 50 companies."
             - "Collaborated closely with Sales and Product teams to determine customer and business requirements for new products and assisted customers to build product confidence."
     - company: "MITRE Corporation"
@@ -106,11 +106,11 @@ resume:
           desc:
             - "Developed and improved image detection algorithms Matlab and C++,  for use with unmanned aircraft systems."
             - "Optimized detection models using supercomputers/parallel computing techniques."
-            - "Developed ground-truth verification systems for Lincoln Near Earth Asteroid Research project (LINEAR). Verified 4 million extraterrestrial objects. (<a href=\"https://s-r.io/linear\">s-r.io/linear</a>)"
+            - "Developed ground-truth verification systems for Lincoln Near Earth Asteroid Research project (LINEAR). Verified 4 million extraterrestrial objects. (<a href=\"https://s-r.io/linear\" target=\"_blank\">s-r.io/linear</a>)"
 
   projects:
     - title: "PulseClient"
-      desc: "A progressive webapp for texting (SMS/MMS) from your computer using Vue.js, serving more than 1 million users. (<a href=\"https://s-r.io/pulse\">s-r.io/pulse</a>)."
+      desc: "A progressive webapp for texting (SMS/MMS) from your computer using Vue.js, serving more than 1 million users. (<a href=\"https://s-r.io/pulse\" target=\"_blank\">s-r.io/pulse</a>)."
     - title: "Kubernetes Cluster"
       desc: "Managing at-home services cluster using Kubernetes, Helm, and Flux"
 

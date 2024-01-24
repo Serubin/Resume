@@ -12,6 +12,7 @@ export default function PageWrapper ({ children }: Props) {
           </div>
         </div>
       </div>
+      <div className="footer-content">Made with <span>♥️</span> by Solomon Rubin. <a href="https://s-r.io/resume-src" target="_blank">View Source</a></div>
     </div>
   );
 }

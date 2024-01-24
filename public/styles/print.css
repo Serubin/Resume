@@ -420,4 +420,7 @@
   a[href]:after {
     content: "";
   }
+  .footer-content {
+    display: none;
+  }
 }

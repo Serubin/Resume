@@ -310,3 +310,28 @@ a.link:hover span {
 .content-secondary-title {
   font-size: 15px;
 }
+
+.footer-content {
+  margin: -10px auto 20px;
+  width: 850px;
+
+  color: #a6a6a6;
+  line-height: 14px;
+}
+
+/* Emoji Graying */
+.footer-content span{
+  color: transparent;
+  text-shadow: 0 0 0 #a6a6a6;
+  font-size: 10px;
+  line-height: 14px;
+}
+
+.footer-content a {
+  color: #a6a6a6 !important;
+  text-decoration: underline;
+}
+
+.footer-content a:hover {
+  text-decoration: none;
+}
