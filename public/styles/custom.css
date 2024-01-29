@@ -187,7 +187,7 @@ body {
 }
 
 .bd-secondary-light {
-    border -color: #e7eaf0;
+    border-color: #e7eaf0;
 }
 
 .grayscale .bd-secondary-light {
@@ -254,32 +254,20 @@ a.contact-icon-link {
     color: #414141 !important;
 }
 
-.document-container:hover [markdown-viewer] a, .document-container:hover .link a {
-    color: #26447f !important;
+
+.section-4.col-md-8 {
+  padding: 0;
 }
 
-.document-container:hover [markdown-viewer] a, .document-container:hover .link a {
-    text-decoration: underline;
+.section-3.col-md-4 {
+  padding-right: 10px;
 }
 
-.document-container:hover [markdown-viewer] a:hover, .document-container:hover .link a:hover {
-    color: #26447f !important;
+.col-md-8 {
+  width: 67.666667%;
 }
-
-.document-container:hover .grayscale [markdown-viewer] a, .document-container:hover .grayscale .link a {
-    color: #585858 !important;
-}
-
-.document-container:hover .grayscale [markdown-viewer] a:hover, .document-container:hover .grayscale .link a:hover {
-    color: #414141 !important;
-}
-
-.fg-white {
-    color: #fff
-}
-
-.fg-white .contact-icon-link {
-    color: #fff
+.col-md-4 {
+  width: 32.333333%;
 }
 
 a {
@@ -297,18 +285,26 @@ a.link:hover span {
 
 .section-header .medium {
   font-size: 19px;
+  line-height: 1.42857143 !important;
 }
 
 .content-paragraph {
   font-size: 12px;
+  line-height: 1.5 !important;
 }
 
 .content-title {
   font-size: 17px;
+  line-height: 1.1 !important;
 }
 
 .content-secondary-title {
   font-size: 15px;
+  line-height: 1.1 !important;
+}
+
+.content-secondary-title.education {
+  line-height: 1.43 !important;
 }
 
 .footer-content {
