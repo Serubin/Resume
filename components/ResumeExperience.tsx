@@ -46,19 +46,23 @@ export default function ResumeSummary({ experience }: Props) {
                         </td>
                         <td className="crd-col align-right right-col">
                           <div className="inline-block item-date">
+                            {(position.start && position.end) && (
                             <span className="date font-primary cr-date content-secondary-title">
                               <span>{position.start}</span> <span>to</span> <span>{position.end}</span>
                             </span>
+                            )};
                           </div>
                         </td>
                       </tr>
                     </tbody>
                   </table>
+                  {position.desc?.length > 0 && (
                   <div className="font-secondary content-paragraph description content-paragraph">
                     <ul>
                       {position.desc?.map((line: string, idx: number) => <li key={idx} dangerouslySetInnerHTML={{ __html: line }} />)}
                     </ul>
                   </div>
+                  )}
                 </Fragment>
               )}
             </div>
