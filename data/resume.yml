@@ -1,6 +1,6 @@
 resume:
   name: "Solomon Rubin"
-  objective: "Experienced software engineering leader with 10 years of experience focused on building reliable software and strong teams that create excellent user and business outcomes. Striving for continuous learning and growth through technical and leadership experiences."
+  objective: "Experienced software engineering leader with 10 years of experience developing high quality software and building strong engineering teams through empathetic leadership."
 
   contacts:
     - title: "hello@serubin.net"
@@ -20,7 +20,7 @@ resume:
 
   skills:
     - title: "Languages and Frameworks"
-      items: 
+      items:
         - "TypeScript/JavaScript"
         - "React/Redux"
         - "Vue/Vuex"
@@ -42,7 +42,7 @@ resume:
         - "CI/CD"
         - "ORMs"
     - title: "Leadership Skills"
-      items: 
+      items:
         - "Project Management"
         - "Agile Methodologies"
         - "Cross-Functional Collaboration"
@@ -56,33 +56,27 @@ resume:
       duration: "4.5 years"
       positions:
         - title: "Senior Software Engineer"
-          start: "February 2023"
-          end: "January 2024"
+          start: "Sept 2019"
+          end: "Jan 2024"
           desc:
-            - "Developed customer-focused features from initial ideation through execution and delivery."
-            - "Created excellent user experiences with intuitive user interface and API design."
-            - "Worked cross-functionally with sales, product, and engineering to determine requirements, considering customer and business needs."
+            - "Collaborated closely with CRO to design and implement a technical framework for a new pricing structure to attract a new customer profile, enabling multiple 6-figure+ contracts."
+            - "Led development rebuilding a critical path UI component, implementing complex SQL queries for ergonomic data retrieval and then building a modern user interface using react."
         - title: "Engineering Manager"
-          start: "April 2022"
-          end: "February 2023"
-        - title: "Software Engineering Team Lead"
-          start: "September 2019"
-          end: "April 2022"
           desc:
-            - "Bootstrapped a team to build a new security product from the ground up, developing a product that accounted for $6 million+ in ARR. (<a href=\"https://s-r.io/fossa\" target=\"_blank\">s-r.io/fossa</a>)"
-            - "Developed an industry-leading vulnerability database from the ground up while supporting vulnerability discovery and remediation at scale within Fortune 50 companies."
-            - "Collaborated closely with Sales and Product teams to determine customer and business requirements for new products and assisted customers to build product confidence."
+            - "Founded a team of 5 engineers and was responsible for developing an industry-leading security product representing over $7M ARR. (<a href=\"https://s-r.io/fossa\" target=\"_blank\">s-r.io/fossa</a>)"
+            - "Oversaw and contributed to the development of a best-in-class vulnerability database that supported vulnerability discovery and remediation at scale within Fortune 50 companies."
+            - "Increased customer confidence in vulnerability data by building data review policies and processes that resulted in a reduction in false-positive reports by 90%."
     - company: "MITRE Corporation"
       location: "McLean, VA"
       duration: "4 years"
       positions:
       - title: "Cyber Security and Software Engineer"
         start: "May 2016"
-        end: "September 2019"
+        end: "Sept 2019"
         desc:
-          - "Led a frontend-focused team, working directly with the supervisory agents, to modernize a Digital Forensics Tool for the top Federal Law Enforcement Digital Action team. Developed a complex air-gapped deployment method for scalable mobile computing clusters."
-          - "Advised and worked directly with special agents in a sensitive crimes unit to collect, manage, and analyze digital evidence."
-          - "Received Federal Law Enforcement Award and Director's Award for technical efforts."
+          - "Led a frontend-focused team of 3 engineers, working directly with the supervisory agents, to modernize a digital forensics tool for the top digital crime teams. Developed an air-gapped deployment method for computing clusters used in the field for evidence collection and analysis."
+          - "Advised and worked directly with special agents in a sensitive crimes unit to collect, manage, and analyze digital evidence. Developed image and language detection models to automate analysis."
+          - "Received Federal Law Enforcement Award and Director's Award for technical contributions."
 
     - company: "RIT Information Technology Services"
       location: "Rochester, NY"
@@ -92,9 +86,8 @@ resume:
         start: "Sept 2014"
         end: "Jan 2017"
         desc:
-          - "Determined requirements for tooling to reduce repetitive administrative tasks by working with stakeholders across the university."
-          - "Developed tools to automate hiring forms, pre-fill Scantron exam sheets with student information, and automatically fill in other standard forms."
-          - "Modernized multiple legacy PHP applications to increase maintainability and reliability."
+          - "Developed tools to autofill student information into standard forms and exam sheets, reducing repetitive tasks performed by faculty and university staff from hours to a single click."
+          - "Modernized multiple legacy PHP applications, upgrading end-of-life software and integreating CI/CD to increase maintainability and reliability."
 
     - company: "MIT Lincoln Laboratory"
       location: "Lexington, MA"
@@ -104,15 +97,14 @@ resume:
           start: "Feb 2014"
           end: "Aug 2015"
           desc:
-            - "Developed and improved image detection algorithms Matlab and C++,  for use with unmanned aircraft systems."
-            - "Optimized detection models using supercomputers/parallel computing techniques."
             - "Developed ground-truth verification systems for Lincoln Near Earth Asteroid Research project (LINEAR). Verified 4 million extraterrestrial objects. (<a href=\"https://s-r.io/linear\" target=\"_blank\">s-r.io/linear</a>)"
+            - "Integrated image detection algorithms into an image processing pipeline and optimized models for use with space survallience systems."
 
   projects:
     - title: "PulseClient"
-      desc: "A progressive webapp for texting (SMS/MMS) from your computer using Vue.js, serving more than 1 million users. (<a href=\"https://s-r.io/pulse\" target=\"_blank\">s-r.io/pulse</a>)."
+      desc: "Maintainer of an open source progressive webapp for texting (SMS/MMS) from your computer using Vue.js. Adopted as the offical client for PulseSMS, serving more than 1 million users. (<a href=\"https://s-r.io/pulse\" target=\"_blank\">s-r.io/pulse</a>)."
     - title: "Kubernetes Cluster"
-      desc: "Managing at-home services cluster using Kubernetes, Helm, and FluxCD. (<a href=\"https://s-r.io/infra\" target=\"_blank\">s-r.io/infra</a>)"
+      desc: "Built a self-hosted service cluster, hosting apps for friends and family, using using Kubernetes, Helm, and FluxCD. (<a href=\"https://s-r.io/infra\" target=\"_blank\">s-r.io/infra</a>)"
 
   education:
     - title: "Rochester Institute of Technology"
@@ -120,7 +112,7 @@ resume:
       desc:
         - "<b>Engineering Courses</b>: Data Structures, Parallel and Distributed Systems, Operating Systems, Web Engineering, Web Security, Human Factors Engineering, UI Design"
         - "<b>Leadership Courses</b>: Organizational Psychology Capstone, Software Project Management, Cognitive Psych, Social Psych, Abnormal Psych, Moral Philosophy"
-    - title: "Cornell"
+    - title: "Cornell University"
       degree: "Project Management Certificate"
       desc:
         - "<b>Courses</b>: Organizing Projects, Managing Resources, Managing Risk, Agile"
@@ -133,4 +125,3 @@ resume:
     - "SAFe Agile Certified"
     - "President of RIT Linux User Group and Free and Open Source at RIT"
     - "National Web Design Bronze Medalist (SkillsUSA)"
-
