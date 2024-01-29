@@ -59,11 +59,11 @@ resume:
           start: "Sept 2019"
           end: "Jan 2024"
           desc:
-            - "Collaborated closely with CRO to design and implement a technical framework for a new pricing structure to attract a new customer profile, enabling multiple 6-figure+ contracts."
-            - "Led development rebuilding a critical path UI component, implementing complex SQL queries for ergonomic data retrieval and then building a modern user interface using react."
+            - "Collaborated closely with Chief Revenue Officer to design and implement a technical framework for a new pricing structure to attract a new customer profile, enabling multiple 6-figure+ contracts."
+            - "Led development on a critical path UI component, implementing complex SQL queries for ergonomic data retrieval and then building a modern user interface using react."
         - title: "Engineering Manager"
           desc:
-            - "Founded a team of 5 engineers and was responsible for developing an industry-leading security product representing over $7M ARR. (<a href=\"https://s-r.io/fossa\" target=\"_blank\">s-r.io/fossa</a>)"
+            - "Established and supervised a team of 5 engineers and was responsible for developing an industry-leading security product generating over $7M ARR. (<a href=\"https://s-r.io/fossa\" target=\"_blank\">s-r.io/fossa</a>)"
             - "Oversaw and contributed to the development of a best-in-class vulnerability database that supported vulnerability discovery and remediation at scale within Fortune 50 companies."
             - "Increased customer confidence in vulnerability data by building data review policies and processes that resulted in a reduction in false-positive reports by 90%."
     - company: "MITRE Corporation"
@@ -87,7 +87,7 @@ resume:
         end: "Jan 2017"
         desc:
           - "Developed tools to autofill student information into standard forms and exam sheets, reducing repetitive tasks performed by faculty and university staff from hours to a single click."
-          - "Modernized multiple legacy PHP applications, upgrading end-of-life software and integreating CI/CD to increase maintainability and reliability."
+          - "Modernized multiple legacy PHP applications, upgrading end-of-life software and integrating CI/CD to increase maintainability and reliability."
 
     - company: "MIT Lincoln Laboratory"
       location: "Lexington, MA"
@@ -98,13 +98,13 @@ resume:
           end: "Aug 2015"
           desc:
             - "Developed ground-truth verification systems for Lincoln Near Earth Asteroid Research project (LINEAR). Verified 4 million extraterrestrial objects. (<a href=\"https://s-r.io/linear\" target=\"_blank\">s-r.io/linear</a>)"
-            - "Integrated image detection algorithms into an image processing pipeline and optimized models for use with space survallience systems."
+            - "Integrated image detection algorithms into an image processing pipeline and optimized models for use with space surveillance systems."
 
   projects:
     - title: "PulseClient"
       desc: "Maintainer of an open source progressive webapp for texting (SMS/MMS) from your computer using Vue.js. Adopted as the offical client for PulseSMS, serving more than 1 million users. (<a href=\"https://s-r.io/pulse\" target=\"_blank\">s-r.io/pulse</a>)."
     - title: "Kubernetes Cluster"
-      desc: "Built a self-hosted service cluster, hosting apps for friends and family, using using Kubernetes, Helm, and FluxCD. (<a href=\"https://s-r.io/infra\" target=\"_blank\">s-r.io/infra</a>)"
+      desc: "Built a self-hosted service cluster, hosting apps for friends and family, using Kubernetes, Helm, and FluxCD. (<a href=\"https://s-r.io/infra\" target=\"_blank\">s-r.io/infra</a>)"
 
   education:
     - title: "Rochester Institute of Technology"
