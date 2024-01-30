@@ -1,6 +1,6 @@
 resume:
   name: "Solomon Rubin"
-  objective: "Experienced software engineering leader with 10 years of experience developing high quality software and building strong engineering teams through empathetic leadership."
+  objective: "Accomplished software engineering leader with 10 years of experience in corporate and startup environments. Interested in leveraging leadership and technical experience to build strong teams that deliver exceptional software."
 
   contacts:
     - title: "hello@serubin.net"
@@ -19,6 +19,15 @@ resume:
       link: "https://linkedin.com/in/serubin"
 
   skills:
+    - title: "Leadership Skills"
+      items:
+        - "Project Management"
+        - "Agile Methodologies"
+        - "Cross-Functional Collaboration"
+        - "Clear Communication"
+        - "Team Mentorship"
+        - "Solution Oriented"
+        - "Conflict Resolution"
     - title: "Languages and Frameworks"
       items:
         - "TypeScript/JavaScript"
@@ -41,15 +50,6 @@ resume:
         - "NoSql"
         - "CI/CD"
         - "ORMs"
-    - title: "Leadership Skills"
-      items:
-        - "Project Management"
-        - "Agile Methodologies"
-        - "Cross-Functional Collaboration"
-        - "Clear Communication"
-        - "Empathetic Leadership"
-        - "Creative Leadership"
-        - "Conflict Resolution"
   experience:
     - company: "FOSSA"
       location: "San Francisco, CA"
@@ -60,34 +60,35 @@ resume:
           end: "Jan 2024"
           desc:
             - "Collaborated closely with Chief Revenue Officer to design and implement a technical framework for a new pricing structure to attract a new customer profile, enabling multiple 6-figure+ contracts."
-            - "Led development on a critical path UI component, implementing complex SQL queries for ergonomic data retrieval and then building a modern user interface using react."
+            - "Designed and led technical development on an OCI image scanner and data pipeline using Go and NodeJS to detect vulnerabilities for Fortune 500 customers, leading to multiple 6-figure upsells."
+            - "Led development on a critical path UI component, implementing complex SQL queries for ergonomic data retrieval and then building a modern user interface using React."
         - title: "Engineering Manager"
           desc:
-            - "Established and supervised a team of 5 engineers and was responsible for developing an industry-leading security product generating over $7M ARR. (<a href=\"https://s-r.io/fossa\" target=\"_blank\">s-r.io/fossa</a>)"
+            - 'Established and supervised a team of 5 engineers and was responsible for developing an industry-leading security product generating over $7M ARR. (<a href="https://s-r.io/fossa" target="_blank">s-r.io/fossa</a>)'
             - "Oversaw and contributed to the development of a best-in-class vulnerability database that supported vulnerability discovery and remediation at scale within Fortune 50 companies."
             - "Increased customer confidence in vulnerability data by building data review policies and processes that resulted in a reduction in false-positive reports by 90%."
     - company: "MITRE Corporation"
       location: "McLean, VA"
       duration: "4 years"
       positions:
-      - title: "Cyber Security and Software Engineer"
-        start: "May 2016"
-        end: "Sept 2019"
-        desc:
-          - "Led a frontend-focused team of 3 engineers, working directly with the supervisory agents, to modernize a digital forensics tool for the top digital crime teams. Developed an air-gapped deployment method for computing clusters used in the field for evidence collection and analysis."
-          - "Advised and worked directly with special agents in a sensitive crimes unit to collect, manage, and analyze digital evidence. Developed image and language detection models to automate analysis."
-          - "Received Federal Law Enforcement Award and Director's Award for technical contributions."
+        - title: "Cyber Security and Software Engineer"
+          start: "May 2016"
+          end: "Sept 2019"
+          desc:
+            - "Led a frontend-focused team of 3 engineers, working directly with the supervisory agents, to modernize a digital forensics tool for the top digital crime teams. Developed an air-gapped deployment method for computing clusters used in the field for evidence collection and analysis."
+            - "Advised and worked directly with special agents in a sensitive crimes unit to collect, manage, and analyze digital evidence. Developed image and language detection models to automate analysis."
+            - "Received Attorney General's Award, Federal Law Enforcement Award, and Director's Award for technical innovations."
 
     - company: "RIT Information Technology Services"
       location: "Rochester, NY"
       duration: "2 years"
       positions:
-      - title: "Software Developer"
-        start: "Sept 2014"
-        end: "Jan 2017"
-        desc:
-          - "Developed tools to autofill student information into standard forms and exam sheets, reducing repetitive tasks performed by faculty and university staff from hours to a single click."
-          - "Modernized multiple legacy PHP applications, upgrading end-of-life software and integrating CI/CD to increase maintainability and reliability."
+        - title: "Software Developer"
+          start: "Sept 2014"
+          end: "Jan 2017"
+          desc:
+            - "Developed tools to autofill student information into standard forms and exam sheets, reducing repetitive tasks performed by faculty and university staff from hours to a single click."
+            - "Modernized multiple legacy PHP applications, upgrading end-of-life software and integrating CI/CD to increase maintainability and reliability."
 
     - company: "MIT Lincoln Laboratory"
       location: "Lexington, MA"
@@ -97,14 +98,14 @@ resume:
           start: "Feb 2014"
           end: "Aug 2015"
           desc:
-            - "Developed ground-truth verification systems for Lincoln Near Earth Asteroid Research project (LINEAR). Verified 4 million extraterrestrial objects. (<a href=\"https://s-r.io/linear\" target=\"_blank\">s-r.io/linear</a>)"
+            - 'Developed ground-truth verification systems for Lincoln Near Earth Asteroid Research project (LINEAR). Verified 4 million extraterrestrial objects. (<a href="https://s-r.io/linear" target="_blank">s-r.io/linear</a>)'
             - "Integrated image detection algorithms into an image processing pipeline and optimized models for use with space surveillance systems."
 
   projects:
     - title: "PulseClient"
-      desc: "Maintainer of an open source progressive webapp for texting (SMS/MMS) from your computer using Vue.js. Adopted as the offical client for PulseSMS, serving more than 1 million users. (<a href=\"https://s-r.io/pulse\" target=\"_blank\">s-r.io/pulse</a>)."
+      desc: 'Maintainer of an open source progressive webapp for texting (SMS/MMS) from your computer using Vue.js. Adopted as the official client for PulseSMS, serving more than 1 million users. (<a href="https://s-r.io/pulse" target="_blank">s-r.io/pulse</a>).'
     - title: "Kubernetes Cluster"
-      desc: "Built a self-hosted service cluster, hosting apps for friends and family, using Kubernetes, Helm, and FluxCD. (<a href=\"https://s-r.io/infra\" target=\"_blank\">s-r.io/infra</a>)"
+      desc: 'Built a Kubernetes cluster running various home services, using Helm, and FluxCD. (<a href="https://s-r.io/infra" target="_blank">s-r.io/infra</a>)'
 
   education:
     - title: "Rochester Institute of Technology"
@@ -123,5 +124,6 @@ resume:
 
   accomplishments:
     - "SAFe Agile Certified"
-    - "President of RIT Linux User Group and Free and Open Source at RIT"
-    - "National Web Design Bronze Medalist (SkillsUSA)"
+    - "OSS Conference Speaker"
+    - "President of Linux User Group and FOSS group at RIT"
+    - "National Web Design Medalist (SkillsUSA)"
