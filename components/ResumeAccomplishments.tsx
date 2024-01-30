@@ -6,7 +6,7 @@ type Props = {
 
 export default function ResumeAccomplishments({ accomplishments }: Props) {
   return (
-    <div className="row">
+    <div className="row accomplishments">
       <div className="col-md-12">
         <div className="row section-header header-underline">
           <div className="font-primary col-md-12 fg-black uppercase medium">

@@ -9,7 +9,7 @@ type HeaderProps = {
 
 export default function ResumeHeader({ name, contacts }: HeaderProps) {
   return (<>
-    <div className="row" style={{height: '15px'}} />
+    <div className="row header" style={{height: '15px'}} />
     <div className="row top-header">
         <div className="section-1 col-md-12">
             <div className="row">
