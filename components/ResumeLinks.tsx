@@ -4,7 +4,7 @@ type Props = {
   links: Link[];
 }
 
-export default function ResumeLink({ links }: Props) {
+export default function ResumeLinks({ links }: Props) {
   return (
     <div className="row">
       <div className="col-md-12">

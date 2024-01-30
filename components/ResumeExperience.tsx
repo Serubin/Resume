@@ -5,7 +5,7 @@ type Props = {
   experience: Experience[];
 }
 
-export default function ResumeSummary({ experience }: Props) {
+export default function ResumeExperience({ experience }: Props) {
   return (
   <div className="row">
     <div className="col-md-12">

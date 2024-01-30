@@ -4,7 +4,7 @@ type Props = {
   education: School[];
 }
 
-export default function ResumeProjects({ education }: Props) {
+export default function ResumeEducation({ education }: Props) {
   return (
     <div className="row">
       <div className="col-md-12">
