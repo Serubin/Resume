@@ -75,9 +75,9 @@ resume:
           start: "May 2016"
           end: "Sept 2019"
           desc:
-            - "Led a frontend-focused team of 3 engineers, working directly with the supervisory agents, to modernize a digital forensics tool for the top digital crime teams. Developed an air-gapped deployment method for computing clusters used in the field for evidence collection and analysis."
-            - "Advised and worked directly with special agents in a sensitive crimes unit to collect, manage, and analyze digital evidence. Developed image and language detection models to automate analysis."
-            - "Received Attorney General's Award, Federal Law Enforcement Award, and Director's Award for technical innovations."
+            - "Led a frontend-focused team of 3 engineers, working directly with federal supervisory agents, to modernize a digital forensics tool for the top digital crime teams. Developed an air-gapped deployment method for computing clusters used in the field for evidence collection and analysis."
+            - "Advised and worked directly with federal agents in a sensitive crimes unit to collect, manage, and analyze digital evidence. Developed image and language detection models to automate analysis."
+            - "Received US Attorney General's Award, Federal Law Enforcement Award, and Director's Award for technical innovations."
 
     - company: "RIT Information Technology Services"
       location: "Rochester, NY"
