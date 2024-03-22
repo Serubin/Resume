@@ -105,7 +105,7 @@ resume:
     - title: "PulseClient"
       desc: 'Maintainer of an open source progressive webapp for texting (SMS/MMS) from your computer using Vue.js. Adopted as the official client for PulseSMS, serving more than 1 million users. (<a href="https://s-r.io/pulse" target="_blank">s-r.io/pulse</a>).'
     - title: "Kubernetes Cluster"
-      desc: "Built a Kubernetes cluster running various home services, using Helm, and FluxCD."
+      desc: 'Built a Kubernetes cluster running various home services, using Helm, and FluxCD. (<a href="https://s-r.io/infra" target="_blank">s-r.io/infra</a>)'
 
   education:
     - title: "Rochester Institute of Technology"
