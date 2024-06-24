@@ -36,9 +36,9 @@ resume:
         - "Angular"
         - "Sass/Less/CSS"
         - "Python"
-        - "Java"
         - "Go"
         - "Bash/Zsh"
+        - "Java"
         - "PHP"
     - title: "Tools"
       items:
@@ -51,6 +51,16 @@ resume:
         - "CI/CD"
         - "ORMs"
   experience:
+    - company: "Lacework"
+      location: "Washington DC"
+      positions:
+        - title: "Staff Software Engineer"
+          start: "April 2024"
+          end: "Present"
+          desc:
+            - "Developed a robust onboarding process for a complex microservice architecture."
+            - "Improved developer experience across several services by adding cross-service tracing, refactoring problematic parts of the code base, and building robust documentation."
+            - "Worked directly with CISO to lead compliance efforts on the team for an upcoming acquisition."
     - company: "FOSSA"
       location: "San Francisco, CA"
       duration: "4.5 years"
@@ -79,16 +89,16 @@ resume:
             - "Advised and worked directly with federal agents in a sensitive crimes unit to collect, manage, and analyze digital evidence. Developed image and language detection models to automate analysis."
             - "Received US Attorney General's Award, Federal Law Enforcement Award, and Director's Award for technical innovations."
 
-    - company: "RIT Information Technology Services"
-      location: "Rochester, NY"
-      duration: "2 years"
-      positions:
-        - title: "Software Developer"
-          start: "Sept 2014"
-          end: "Jan 2017"
-          desc:
-            - "Developed tools to autofill student information into standard forms and exam sheets, reducing repetitive tasks performed by faculty and university staff from hours to a single click."
-            - "Modernized multiple legacy PHP applications, upgrading end-of-life software and integrating CI/CD to increase maintainability and reliability."
+            #    - company: "RIT Information Technology Services"
+            #      location: "Rochester, NY"
+            #      duration: "2 years"
+            #      positions:
+            #        - title: "Software Developer"
+            #          start: "Sept 2014"
+            #          end: "Jan 2017"
+            #          desc:
+            #            - "Developed tools to autofill student information into standard forms and exam sheets, reducing repetitive tasks performed by faculty and university staff from hours to a single click."
+            #            - "Modernized multiple legacy PHP applications, upgrading end-of-life software and integrating CI/CD to increase maintainability and reliability."
 
     - company: "MIT Lincoln Laboratory"
       location: "Lexington, MA"
