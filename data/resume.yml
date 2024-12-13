@@ -51,16 +51,16 @@ resume:
         - "CI/CD"
         - "ORMs"
   experience:
-    - company: "Lacework"
+    - company: "Fortinet (Lacework)"
       location: "Washington DC"
       positions:
         - title: "Staff Software Engineer"
           start: "April 2024"
           end: "Present"
           desc:
-            - "Developed a robust onboarding process for a complex microservice architecture."
-            - "Improved developer experience across several services by adding cross-service tracing, refactoring problematic parts of the code base, and building robust documentation."
-            - "Worked directly with CISO to lead compliance efforts on the team for an upcoming acquisition."
+            - "Leading efforts to build industry leading vulnerability management products at Lacework/Fortinet."
+            - "Improving developer experience across several services by adding cross-service tracing, refactoring critcal code paths, and building robust documentation."
+            - "Working directly with CISO to lead compliance efforts on the team for an upcoming acquisition."
     - company: "FOSSA"
       location: "San Francisco, CA"
       duration: "4.5 years"
