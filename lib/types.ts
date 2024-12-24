@@ -1,3 +1,7 @@
+export interface ReactChildren {
+  children: React.ReactNode
+}
+
 export type Resume = {
   name: Name;
   objective: Name;
