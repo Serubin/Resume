@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-page-custom-font */
 /* eslint-disable @next/next/no-css-tags */
-import Head from 'next/head';
+'use client';
 
 import { Resume as ResumeType } from '../lib/types';
 import PageWrapper from './PageWrapper';

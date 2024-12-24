@@ -2,7 +2,7 @@ import { ReactChildren } from '../lib/types';
 
 export default function RootLayout({ children }: ReactChildren) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <head>
         <meta charSet="utf-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
