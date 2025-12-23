@@ -1,5 +1,6 @@
 body {
   color: #000 !important;
+  background-color: var(--bg-light);
 }
 
 .font-primary {

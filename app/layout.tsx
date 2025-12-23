@@ -2,7 +2,7 @@ import { ReactChildren } from '../lib/types';
 
 export default function RootLayout({ children }: ReactChildren) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <>
       <head>
         <meta charSet="utf-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -17,9 +17,7 @@ export default function RootLayout({ children }: ReactChildren) {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;700&family=Varela+Round&display=swap" rel="stylesheet" />
       </head>
-      <body>
-        <>{children}</>
-      </body>
-    </html>
+      {children}
+    </>
   );
 }
