@@ -56,7 +56,7 @@ resume:
           start: "April 2024"
           end: "Present"
           desc:
-            - 'Providing technical oversight to 9 engineers and owning 7 data acquisition and evaluation services running 800 million evaluations per day, feeding data to the entire CNAPP platform. (<a href="https://serub.in/s/cnapp" target="_blank">serub.in/s/cnapp</a>)'
+            - 'Providing technical oversight to 9 engineers and owning 7 data acquisition and evaluation services running 800M evaluations per day, feeding data to the entire CNAPP platform. (<a href="https://serub.in/s/cnapp" target="_blank">serub.in/s/cnapp</a>)'
             - "Driving a multi-year modernization of the core vulnerability data pipeline, reducing data lifecycle time from weeks to hours and resource consumption by 98%."
             - "Improving reliability and developer experience across services through cross-service tracing and targeted refactoring, cutting alert noise by over 90% and accelerating delivery cycles 5x."
             - "Partnering with customer success and product to set roadmap direction, reducing customer-facing tickets by 80% and average resolution time from months to under two weeks."
