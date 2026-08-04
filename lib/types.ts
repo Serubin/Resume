@@ -8,6 +8,7 @@ export type Resume = {
   contacts: Contact[];
   links: Link[];
   skills: Skill[];
+  awards: Award[];
   accomplishments: Accomplishment[];
   education: School[];
   experience: Experience[];
@@ -36,8 +37,10 @@ export type Skill = {
 export type School = {
   title: string;
   degree: string;
-  desc: string[];
+  desc?: string[];
 }
+
+export type Award = string;
 
 export type Accomplishment = string;
 
@@ -49,8 +52,8 @@ export type Experience = {
 
 export type Position = {
   title: string;
-  start: string;
-  end: string;
+  start?: string;
+  end?: string;
   desc: string[];
 }
 

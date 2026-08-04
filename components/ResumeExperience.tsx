@@ -50,7 +50,7 @@ export default function ResumeExperience({ experience }: Props) {
                             <span className="date font-primary cr-date content-secondary-title">
                               <span>{position.start}</span> <span>to</span> <span>{position.end}</span>
                             </span>
-                            )};
+                            )}
                           </div>
                         </td>
                       </tr>

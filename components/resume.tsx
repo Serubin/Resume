@@ -14,6 +14,7 @@ import ResumeProjects from './ResumeProjects';
 import ResumeLinks from './ResumeLinks';
 import ResumeSkills from './ResumeSkills';
 import ResumeEducation from './ResumeEducation';
+import ResumeAwards from './ResumeAwards';
 import ResumeAccomplishments from './ResumeAccomplishments';
 
 type ResumeProps = {
@@ -28,6 +29,7 @@ export default function Resume({ resume }: ResumeProps) {
     links,
     skills,
     education,
+    awards,
     accomplishments,
     experience,
     projects
@@ -41,6 +43,7 @@ export default function Resume({ resume }: ResumeProps) {
           <ResumeLinks links={links} />
           <ResumeSkills skills={skills} />
           <ResumeEducation education={education} />
+          <ResumeAwards awards={awards} />
           <ResumeAccomplishments accomplishments={accomplishments} />
         </SidePanel>
         <MainPanel>

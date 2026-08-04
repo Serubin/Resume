@@ -1,6 +1,6 @@
 resume:
   name: "Solomon Rubin"
-  objective: "Accomplished software engineering leader with 10 years of experience in corporate and startup environments. Interested in leveraging leadership and technical experience to build strong teams that deliver exceptional software."
+  objective: "Engineering leader with 10+ years building security products across corporate and startup environments, as both a manager and a staff-level technical lead."
 
   contacts:
     - title: "hello@serubin.net"
@@ -19,37 +19,35 @@ resume:
       link: "https://linkedin.com/in/serubin"
 
   skills:
-    - title: "Leadership Skills"
+    - title: "Languages"
       items:
-        - "Project Management"
-        - "Agile Methodologies"
-        - "Cross-Functional Collaboration"
-        - "Clear Communication"
-        - "Team Mentorship"
-        - "Solution Oriented"
-        - "Conflict Resolution"
-    - title: "Languages and Frameworks"
-      items:
-        - "TypeScript/JavaScript"
-        - "React/Redux"
-        - "Vue/Vuex"
-        - "Angular"
-        - "Sass/Less/CSS"
-        - "Python"
         - "Go"
-        - "Bash/Zsh"
         - "Java"
-        - "PHP"
-    - title: "Tools"
+        - "TypeScript"
+        - "Python"
+        - "Rust"
+        - "React"
+        - "Bash"
+    - title: "Infrastructure and Data"
       items:
-        - "Git"
-        - "Docker"
         - "Kubernetes"
-        - "Linux"
-        - "SQL/Postgres"
-        - "NoSql"
+        - "Docker"
+        - "AWS/GCP/Azure"
+        - "Helm/Flux/Argo"
+        - "Spark/Iceberg/Nessie"
+        - "SQL/NoSQL"
+        - "OpenTelemetry"
+        - "Grafana/Prometheus"
+        - "Microservices"
         - "CI/CD"
-        - "ORMs"
+    - title: "Leadership"
+      items:
+        - "Technical Direction"
+        - "Architecture Review"
+        - "Team Mentorship"
+        - "Cross-Functional Collaboration"
+        - "Agile"
+        - "Conflict Resolution"
   experience:
     - company: "Fortinet (Lacework)"
       location: "Washington DC"
@@ -58,25 +56,25 @@ resume:
           start: "April 2024"
           end: "Present"
           desc:
-            - "Leading efforts to build industry leading vulnerability management products at Lacework/Fortinet."
-            - "Improving developer experience across several services by adding cross-service tracing, refactoring critcal code paths, and building robust documentation."
-            - "Working directly with CISO to lead compliance efforts on the team for an upcoming acquisition."
+            - "Providing technical oversight to 9 engineers and owning 7 data acquisition and evaluation services running 800 million evaluations per day, feeding data to the entire CNAPP platform."
+            - "Driving a multi-year modernization of the core vulnerability data pipeline, reducing data lifecycle time from weeks to hours and resource consumption by 98%."
+            - "Improving reliability and developer experience across services through cross-service tracing and targeted refactoring, cutting alert noise by over 90% and accelerating delivery cycles 5x."
+            - "Partnering with customer success and product to set roadmap direction, reducing customer-facing tickets by 80% and average resolution time from months to under two weeks."
     - company: "FOSSA"
       location: "San Francisco, CA"
       duration: "4.5 years"
       positions:
-        - title: "Senior Software Engineer"
+        - title: "Engineering Manager"
           start: "Sept 2019"
           end: "Jan 2024"
-          desc:
-            - "Collaborated closely with Chief Revenue Officer to design and implement a technical framework for a new pricing structure to attract a new customer profile, enabling multiple 6-figure+ contracts."
-            - "Designed and led technical development on an OCI image scanner and data pipeline using Go and NodeJS to detect vulnerabilities for Fortune 500 customers, leading to multiple 6-figure upsells."
-            - "Led development on a critical path UI component, implementing complex SQL queries for ergonomic data retrieval and then building a modern user interface using React."
-        - title: "Engineering Manager"
           desc:
             - 'Established and supervised a team of 5 engineers and was responsible for developing an industry-leading security product generating over $7M ARR. (<a href="https://s-r.io/fossa" target="_blank">s-r.io/fossa</a>)'
             - "Oversaw and contributed to the development of a best-in-class vulnerability database that supported vulnerability discovery and remediation at scale within Fortune 50 companies."
             - "Increased customer confidence in vulnerability data by building data review policies and processes that resulted in a reduction in false-positive reports by 90%."
+        - title: "Senior Software Engineer"
+          desc:
+            - "Collaborated closely with Chief Revenue Officer to design and implement a technical framework for a new pricing structure to attract a new customer profile, enabling multiple 6-figure+ contracts."
+            - "Designed and led technical development on an OCI image scanner and data pipeline using Go and NodeJS to detect vulnerabilities for Fortune 500 customers, leading to multiple 6-figure upsells."
     - company: "MITRE Corporation"
       location: "McLean, VA"
       duration: "4 years"
@@ -85,9 +83,8 @@ resume:
           start: "May 2016"
           end: "Sept 2019"
           desc:
-            - "Led a frontend-focused team of 3 engineers, working directly with federal supervisory agents, to modernize a digital forensics tool for the top digital crime teams. Developed an air-gapped deployment method for computing clusters used in the field for evidence collection and analysis."
+            - "Led a team of 3 engineers, working directly with federal supervisory agents, to modernize a digital forensics tool for field-deployed clusters used by top digital crime teams."
             - "Advised and worked directly with federal agents in a sensitive crimes unit to collect, manage, and analyze digital evidence. Developed image and language detection models to automate analysis."
-            - "Received US Attorney General's Award, Federal Law Enforcement Award, and Director's Award for technical innovations."
 
             #    - company: "RIT Information Technology Services"
             #      location: "Rochester, NY"
@@ -109,31 +106,29 @@ resume:
           end: "Aug 2015"
           desc:
             - 'Developed ground-truth verification systems for Lincoln Near Earth Asteroid Research project (LINEAR). Verified 4 million extraterrestrial objects. (<a href="https://s-r.io/linear" target="_blank">s-r.io/linear</a>)'
-            - "Integrated image detection algorithms into an image processing pipeline and optimized models for use with space surveillance systems."
+            - "Developed and integrated machine vision algorithms to detect moving asteroids across a petabyte-scale image processing pipeline."
 
   projects:
-    - title: "PulseClient"
-      desc: 'Maintainer of an open source progressive webapp for texting (SMS/MMS) from your computer using Vue.js. Adopted as the official client for PulseSMS, serving more than 1 million users. (<a href="https://s-r.io/pulse" target="_blank">s-r.io/pulse</a>).'
-    - title: "Kubernetes Cluster"
-      desc: 'Built a Kubernetes cluster running various home services, using Helm, and FluxCD. (<a href="https://s-r.io/infra" target="_blank">s-r.io/infra</a>)'
+    - title: "Pulse SMS Web"
+      desc: 'Maintainer of the official open source web client for Pulse SMS, serving more than 1 million users. (<a href="https://s-r.io/pulse" target="_blank">s-r.io/pulse</a>).'
+    - title: "Open Source Contributions"
+      desc: "Contributor to Deja, a Go shell productivity daemon with 500+ stars, and Mira, open source firmware reviving Spotify's Car Thing. Core contributor to blank.space, a Farcaster client platform."
 
   education:
     - title: "Rochester Institute of Technology"
       degree: "BS, Concentration in Computer Science & Cyber Security"
-      desc:
-        - "<b>Engineering Courses</b>: Data Structures, Parallel and Distributed Systems, Operating Systems, Web Engineering, Web Security, Human Factors Engineering, UI Design"
-        - "<b>Leadership Courses</b>: Organizational Psychology Capstone, Software Project Management, Cognitive Psych, Social Psych, Abnormal Psych, Moral Philosophy"
     - title: "Cornell University"
       degree: "Project Management Certificate"
-      desc:
-        - "<b>Courses</b>: Organizing Projects, Managing Resources, Managing Risk, Agile"
     - title: "Northeastern University"
       degree: "Computer Science Certificate"
-      desc:
-        - "<b>Courses</b>: Networking, Databases, Web Design"
+
+  awards:
+    - "US Attorney General's Award"
+    - "Federal Law Enforcement Award"
+    - "MITRE Director's Award"
+    - "National Web Design Medalist (SkillsUSA)"
 
   accomplishments:
+    - "Conference Speaker, GitLab Commit 2019: Open Source in the Federal Government"
     - "SAFe Agile Certified"
-    - "OSS Conference Speaker"
     - "President of Linux User Group and FOSS group at RIT"
-    - "National Web Design Medalist (SkillsUSA)"

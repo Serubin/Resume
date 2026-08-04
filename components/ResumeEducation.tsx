@@ -26,7 +26,9 @@ export default function ResumeEducation({ education }: Props) {
                 <div className="font-primary fg-primary-dark content-secondary-title">
                   {school.degree }
                 </div>
-                <div className="font-secondary content-paragraph" dangerouslySetInnerHTML={{ __html: school.desc.join('<br />') }} />
+                {school.desc?.length ?
+                  <div className="font-secondary content-paragraph" dangerouslySetInnerHTML={{ __html: school.desc.join('<br />') }} />
+                : null}
               </div>
             )}
           </div>
