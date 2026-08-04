@@ -1,4 +1,5 @@
 import { ReactChildren } from '../lib/types';
+import '../styles/resume.scss';
 
 export default function RootLayout({ children }: ReactChildren) {
   return (
@@ -9,9 +10,6 @@ export default function RootLayout({ children }: ReactChildren) {
         <meta name="viewport" content="width=device-width" />
         <meta name="robots" content="noindex" />
         <link href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" />
-        <link rel="stylesheet" href="styles/main.css" media="all" />
-        <link rel="stylesheet" href="styles/print.css" media="print" />
-        <link rel="stylesheet" href="styles/custom.css" media="all" />
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />

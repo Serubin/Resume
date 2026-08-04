@@ -1,0 +1,15 @@
+// Entry point for the resume's stylesheets, imported by app/layout.tsx so Next emits
+// them as a content-hashed bundle under /_next/static/css/ rather than serving them
+// unhashed from public/.
+//
+// Import order matches the <link> tags this replaced — main, then print, then custom —
+// so the cascade is unchanged. print.css was previously loaded with media="print" and
+// is wrapped here to keep it print-only.
+
+@import 'main';
+
+@media print {
+  @import 'print';
+}
+
+@import 'custom';
