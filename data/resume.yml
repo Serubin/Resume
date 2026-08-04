@@ -56,7 +56,7 @@ resume:
           start: "April 2024"
           end: "Present"
           desc:
-            - "Providing technical oversight to 9 engineers and owning 7 data acquisition and evaluation services running 800 million evaluations per day, feeding data to the entire CNAPP platform."
+            - 'Providing technical oversight to 9 engineers and owning 7 data acquisition and evaluation services running 800 million evaluations per day, feeding data to the entire CNAPP platform. (<a href="https://serub.in/s/cnapp" target="_blank">serub.in/s/cnapp</a>)'
             - "Driving a multi-year modernization of the core vulnerability data pipeline, reducing data lifecycle time from weeks to hours and resource consumption by 98%."
             - "Improving reliability and developer experience across services through cross-service tracing and targeted refactoring, cutting alert noise by over 90% and accelerating delivery cycles 5x."
             - "Partnering with customer success and product to set roadmap direction, reducing customer-facing tickets by 80% and average resolution time from months to under two weeks."
@@ -68,7 +68,7 @@ resume:
           start: "Sept 2019"
           end: "Jan 2024"
           desc:
-            - 'Established and supervised a team of 5 engineers and was responsible for developing an industry-leading security product generating over $7M ARR. (<a href="https://s-r.io/fossa" target="_blank">s-r.io/fossa</a>)'
+            - 'Established and supervised a team of 5 engineers and was responsible for developing an industry-leading security product generating over $7M ARR. (<a href="https://serub.in/s/fossa" target="_blank">serub.in/s/fossa</a>)'
             - "Oversaw and contributed to the development of a best-in-class vulnerability database that supported vulnerability discovery and remediation at scale within Fortune 50 companies."
             - "Increased customer confidence in vulnerability data by building data review policies and processes that resulted in a reduction in false-positive reports by 90%."
         - title: "Senior Software Engineer"
@@ -83,7 +83,7 @@ resume:
           start: "May 2016"
           end: "Sept 2019"
           desc:
-            - "Led a team of 3 engineers, working directly with federal supervisory agents, to modernize a digital forensics tool for field-deployed clusters used by top digital crime teams."
+            - 'Led a team of 3 engineers, working directly with federal supervisory agents, to modernize a digital forensics tool for field-deployed clusters used by top digital crime teams. (<a href="https://serub.in/s/mitre" target="_blank">serub.in/s/mitre</a>)'
             - "Advised and worked directly with federal agents in a sensitive crimes unit to collect, manage, and analyze digital evidence. Developed image and language detection models to automate analysis."
 
             #    - company: "RIT Information Technology Services"
@@ -105,12 +105,12 @@ resume:
           start: "Feb 2014"
           end: "Aug 2015"
           desc:
-            - 'Developed ground-truth verification systems for Lincoln Near Earth Asteroid Research project (LINEAR). Verified 4 million extraterrestrial objects. (<a href="https://s-r.io/linear" target="_blank">s-r.io/linear</a>)'
+            - 'Developed ground-truth verification systems for Lincoln Near Earth Asteroid Research project (LINEAR). Verified 4 million extraterrestrial objects. (<a href="https://serub.in/s/linear" target="_blank">serub.in/s/linear</a>)'
             - "Developed and integrated machine vision algorithms to detect moving asteroids across a petabyte-scale image processing pipeline."
 
   projects:
     - title: "Pulse SMS Web"
-      desc: 'Maintainer of the official open source web client for Pulse SMS, serving more than 1 million users. (<a href="https://s-r.io/pulse" target="_blank">s-r.io/pulse</a>).'
+      desc: 'Maintainer of the official open source web client for Pulse SMS, serving more than 1 million users. (<a href="https://serub.in/s/pulse" target="_blank">serub.in/s/pulse</a>).'
     - title: "Open Source Contributions"
       desc: "Contributor to Deja, a Go shell productivity daemon with 500+ stars, and Mira, open source firmware reviving Spotify's Car Thing. Core contributor to blank.space, a Farcaster client platform."
 
