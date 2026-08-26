@@ -109,10 +109,10 @@ resume:
             - "Developed and integrated machine vision algorithms to detect moving asteroids across a petabyte-scale image processing pipeline."
 
   projects:
+    - title: "Open Source Contributions"
+      desc: 'Maintainer of Mira, open source firmware reviving Spotify''s Car Thing. (<a href="https://serub.in/s/mira" target="_blank">serub.in/s/mira</a>) Contributor to Deja, a Go shell productivity daemon with 500+ stars, and core contributor to blank.space, a Farcaster client platform.'
     - title: "Pulse SMS Web"
       desc: 'Maintainer of the official open source web client for Pulse SMS, serving more than 1 million users. (<a href="https://serub.in/s/pulse" target="_blank">serub.in/s/pulse</a>).'
-    - title: "Open Source Contributions"
-      desc: "Contributor to Deja, a Go shell productivity daemon with 500+ stars, and Mira, open source firmware reviving Spotify's Car Thing. Core contributor to blank.space, a Farcaster client platform."
 
   education:
     - title: "Rochester Institute of Technology"
