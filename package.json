@@ -5,23 +5,22 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint ."
   },
   "dependencies": {
-    "@types/react-dom": "^19.0.2",
-    "js-yaml": "^4.1.0",
-    "next": "^15.1.2",
-    "react": "^19.0.0-rc.1",
-    "react-dom": "^19.0.0-rc.1",
-    "sharp": "^0.32.6"
+    "js-yaml": "^4.3.2",
+    "next": "^16.3.3",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
   },
   "devDependencies": {
     "@types/js-yaml": "^4.0.3",
-    "@types/node": "20.11.4",
-    "@types/react": "^19.0.2",
-    "eslint": "7.32.0",
-    "eslint-config-next": "^15.1.2",
-    "sass": "^1.41.1",
-    "typescript": "^5.3.3"
+    "@types/node": "^22",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.5",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.3.3",
+    "sass": "^1.103.1",
+    "typescript": "^5.9.3"
   }
 }
