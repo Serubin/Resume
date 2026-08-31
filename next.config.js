@@ -1,9 +1,6 @@
 /** @type {import('next').NextConfig} */
-const path = require('path');
-
 module.exports = {
   reactStrictMode: true,
-  sassOptions: {
-    includePaths: [path.join(__dirname, 'styles')],
-  },
+  // `next dev` otherwise writes an AGENTS.md and a CLAUDE.md into the repo on every run.
+  agentRules: false,
 };

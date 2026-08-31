@@ -1,5 +1,3 @@
-/* eslint-disable @next/next/no-page-custom-font */
-/* eslint-disable @next/next/no-css-tags */
 'use client';
 
 import { Resume as ResumeType } from '../lib/types';
