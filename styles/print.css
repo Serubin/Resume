@@ -39,6 +39,9 @@
     margin-left: -35px;
     position: static;
   }
+  .page .content-paragraph {
+    line-height: 1.45 !important;
+  }
   a[href]:after {
     content: "";
   }

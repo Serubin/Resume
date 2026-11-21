@@ -1,6 +1,6 @@
 resume:
   name: "Solomon Rubin"
-  objective: "Engineering leader with 10+ years building security products across corporate and startup environments, as both a manager and a staff-level technical lead."
+  objective: "Engineering leader with 10+ years building security products and the data platforms behind them, combining people management with staff-level technical direction."
 
   contacts:
     - title: "hello@serubin.net"
@@ -52,14 +52,16 @@ resume:
     - company: "Fortinet (Lacework)"
       location: "Washington DC"
       positions:
-        - title: "Staff Software Engineer"
+        - title: "Staff Software Engineer, Manager"
           start: "April 2024"
           end: "Present"
           desc:
-            - 'Providing technical oversight to 9 engineers and owning 7 data acquisition and evaluation services running 800M evaluations per day, feeding data to the entire CNAPP platform. (<a href="https://serub.in/s/cnapp" target="_blank">serub.in/s/cnapp</a>)'
-            - "Driving a multi-year modernization of the core vulnerability data pipeline, reducing data lifecycle time from weeks to hours and resource consumption by 98%."
-            - "Improving reliability and developer experience across services through cross-service tracing and targeted refactoring, cutting alert noise by over 90% and accelerating delivery cycles 5x."
-            - "Partnering with customer success and product to set roadmap direction, reducing customer-facing tickets by 80% and average resolution time from months to under two weeks."
+            - 'Managing 8 engineers and owning the technical direction of 7 data acquisition and evaluation services running 800M evaluations per day, feeding the entire CNAPP platform. (<a href="https://serub.in/s/cnapp" target="_blank">serub.in/s/cnapp</a>)'
+        - title: "Staff Software Engineer"
+          desc:
+            - "Drove a multi-year modernization of the core vulnerability data pipeline, reducing data lifecycle time from weeks to hours and resource consumption by 98%."
+            - "Improved reliability and developer experience across services through cross-service tracing and targeted refactoring, cutting alert noise by over 90% and accelerating delivery cycles 5x."
+            - "Partnered with customer success and product to set roadmap direction, reducing customer-facing tickets by 80% and average resolution time from months to under two weeks."
     - company: "FOSSA"
       location: "San Francisco, CA"
       duration: "4.5 years"
