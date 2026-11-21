@@ -53,13 +53,11 @@ resume:
       location: "Washington DC"
       positions:
         - title: "Staff Software Engineer, Manager"
-          start: "Oct 2026"
+          start: "April 2024"
           end: "Present"
           desc:
             - 'Managing 8 engineers and owning the technical direction of 7 data acquisition and evaluation services running 800M evaluations per day, feeding the entire CNAPP platform. (<a href="https://serub.in/s/cnapp" target="_blank">serub.in/s/cnapp</a>)'
         - title: "Staff Software Engineer"
-          start: "April 2024"
-          end: "Oct 2026"
           desc:
             - "Drove a multi-year modernization of the core vulnerability data pipeline, reducing data lifecycle time from weeks to hours and resource consumption by 98%."
             - "Improved reliability and developer experience across services through cross-service tracing and targeted refactoring, cutting alert noise by over 90% and accelerating delivery cycles 5x."
